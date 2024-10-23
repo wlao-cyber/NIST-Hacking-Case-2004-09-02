@@ -17,7 +17,7 @@ On 09/20/04 , a Dell CPi notebook computer, serial # VLQLW, was found abandoned 
 Find any hacking software, evidence of their use, and any data that might have been generated. Attempt to tie the computer to the suspect, G=r=e=g S=c=h=a=r=d=t.
 
 ## Tools
-I will be using primarily Autopsy 4.21.0 (latest version as of 2024-10-22) to investigate this case.
+I will be using the free open-source tool Autopsy 4.21.0 (latest version as of 2024-10-22) to investigate this case.
 
 ## Initial Walkthrough and Case Setup
 Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>.
