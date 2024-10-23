@@ -34,3 +34,8 @@ Add the data source.
 
 <img src="./pics/4_Add_Data_Source.png" alt="Add Data Source">
 
+For Data Source Type, select <strong>Disk Image or VM File</strong>
+<img src="./pics/5_Select_Data_Source.png" alt="Select Data Source">
+
+Point to the image. In my case, I downloaded the spanned DD image, so I pointed the path of the first segment. Autopsy will automatically recognize the spanned image when you point to the first segment.
+<img src="./pics/6_Add_Data_Source2.png" alt="Select image data source">
