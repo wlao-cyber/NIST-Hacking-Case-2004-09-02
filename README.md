@@ -24,8 +24,7 @@ Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>
 
 <img src="./pics/1_Autopsy_Start.png" alt="Start Autopsy">
 
-Then fill out the case information.
-
+Set a case name. The additional information like case number is optional. Click <strong>Next</strong> and then <strong>Finish</strong>.
 <img src="./pics/2_New Case Fill Out.png" alt="Fill Out New Case">
 
 <img src="./pics/3_New Case Information.png" alt="Optional Additional Case Information">
@@ -39,3 +38,8 @@ For Data Source Type, select <strong>Disk Image or VM File</strong>
 
 Point to the image. In my case, I downloaded the spanned DD image, so I pointed the path of the first segment. Autopsy will automatically recognize the spanned image when you point to the first segment.
 <img src="./pics/6_Add_Data_Source2.png" alt="Select image data source">
+
+On the <bold>Configure Ingest</bold> step, there are multiple ingest modules. Most of them are available for free by default. Note: Cyber Triage Malware Scanner requires a paid license to scan the image for malware. Let's select all to see what happens. 
+<img src="./pics/7_Configure_Ingest.png" alt="Configure Ingest">
+
+Click Next.
