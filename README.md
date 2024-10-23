@@ -8,7 +8,7 @@ This hacking case is one of several Computer Forensic Reference Data Sets (CFReD
     <li>validating software tools used in their investigations</li>
     <li>checking equipment</li>
     <li>training investigators</li>
-    <li>testing investigators on proficiency</li>
+    <li>testing investigators on proficiency for lab accreditation</li>
 </ul>
 
 ## Scenario 
@@ -19,4 +19,5 @@ Find any hacking software, evidence of their use, and any data that might have b
 ## Tools
 I will be using primarily Autopsy 4.21.0 (latest version as of 2024-10-22) to investigate this case.
 
-## Questions and Answers
+## Walkthrough, Questions, and Answers
+Let's start up Autopsy 4.21.0 and set up a case.
