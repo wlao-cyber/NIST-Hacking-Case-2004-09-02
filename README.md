@@ -21,5 +21,3 @@ I will be using primarily Autopsy 4.21.0 (latest version as of 2024-10-22) to in
 
 ## Walkthrough, Questions, and Answers
 Let's start up Autopsy 4.21.0 and set up a case.
-
-<img src="./pics/New Case.png" alt="New Case">
