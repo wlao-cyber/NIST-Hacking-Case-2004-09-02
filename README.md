@@ -19,7 +19,7 @@ Find any hacking software, evidence of their use, and any data that might have b
 ## Tools
 I will be using primarily Autopsy 4.21.0 (latest version as of 2024-10-22) to investigate this case.
 
-## Walkthrough, Questions, and Answers
+## Initial Walkthrough and Case Setup
 Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>.
 
 <img src="./pics/1_Autopsy_Start.png" alt="Start Autopsy">
@@ -44,3 +44,11 @@ On the <bold>Configure Ingest</bold> step, there are multiple ingest modules. Mo
 
 Click <strong>Finish</strong> on the last step.
 <img src="./pics/7_Data_Source_Added.png" alt="Data Source Added">
+
+Autospy will then begin ingesting. Note the bottom right corner showing the ingest progress.
+<img src="./pics/8_Ingesting.png" alt="Ingest">
+
+After the ingest, you can click on the bottom right and see the errors and findings post-ingest.
+<img src="./pics/9_Finished_Ingesting.png" alt="Post-Ingest Errors">
+
+## Questions and Answers
