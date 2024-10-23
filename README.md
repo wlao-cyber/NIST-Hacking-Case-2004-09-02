@@ -83,6 +83,19 @@ Then select the image and go to the <strong>Container</strong> tab.
 <img src="./pics/10_View_Summary_Container.png" alt="Container Tab in View Summary Information">
 
 ### 2. What operating system was used on the computer?
+Windows XP
+
+Autopsy automatically parses this information under Tree Viewer's <strong>Data Artifacts</strong> node: <strong>Operating System Information</strong>
+<img src="./pics/11_OS_Information.png" alt="OS Information">
+
+If Autopsy didn't automatically provide this as an artifact, we can also look for the information in the SOFTWARE registry hive:<br>
+<strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\software</strong>
+
+The operating system information should be under the registry key within SOFTWARE:
+<strong>\Microsoft\Windows NT\CurrentVersion</strong>
+
+<img src="./pics/11_SOFTWARE_Registry_Hive_OS_Info.png" alt="OS Info in SOFTWARE Registry">
+
 ### 3. When was the install date?
 ### 4. What is the timezone settings?
 ### 5. Who is the registered owner?
