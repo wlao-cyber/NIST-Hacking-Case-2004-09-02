@@ -86,17 +86,33 @@ Then select the image and go to the <strong>Container</strong> tab.
 Windows XP
 
 Autopsy automatically parses this information under Tree Viewer's <strong>Data Artifacts</strong> node: <strong>Operating System Information</strong>
+
 <img src="./pics/11_OS_Information.png" alt="OS Information">
 
 If Autopsy didn't automatically provide this as an artifact, we can also look for the information in the SOFTWARE registry hive:<br>
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\software</strong>
 
-The operating system information should be under the registry key within SOFTWARE:
+The operating system information should be under the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive:
 <strong>\Microsoft\Windows NT\CurrentVersion</strong>
 
 <img src="./pics/11_SOFTWARE_Registry_Hive_OS_Info.png" alt="OS Info in SOFTWARE Registry">
 
 ### 3. When was the install date?
+Thursday, August 19, 2004 10:48:27 PM GMT or
+<br>
+Thursday, August 19, 2004 5:48:27 PM GMT-05:00 (local US Central Time)
+
+The install date can be found in the InstallDate value, which is also within the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive
+
+<img src="./pics/12_SOFTWARE_Registry_Hive_OS_Info_InstallDate.png" alt="InstallDate in SOFTWARE Registry">
+
+The install date is provided in both hexadecimal and decimal form. Note the 0x that precedes the numbers. This signifies hexadecimal form.<br>
+The number in parentheses represents the decimal number in UNIX time. UNIX time is a date and time representation widely used in computing that measures the time elapsed since 00:00:00 UTC on 1 January 1970, the Unix epoch.
+
+To convert to human-readable date, we need to convert epoch from seconds to human date. A website that can help with converting to human date is https://www.epochconverter.com/
+<br>
+<img src="./pics/12_Epoch_Converter.png" alt="Epoch Conversion to Human Date">
+
 ### 4. What is the timezone settings?
 ### 5. Who is the registered owner?
 ### 6. What is the computer account name?
