@@ -29,17 +29,18 @@ Set a case name. The additional information like case number is optional. Click 
 
 <img src="./pics/3_New Case Information.png" alt="Optional Additional Case Information">
 
-Add the data source.
+Add the data source. Click <strong>Next</strong>.
 
 <img src="./pics/4_Add_Data_Source.png" alt="Add Data Source">
 
-For Data Source Type, select <strong>Disk Image or VM File</strong>
+For Data Source Type, select <strong>Disk Image or VM File</strong>. Click <strong>Next</strong>.
 <img src="./pics/5_Select_Data_Source.png" alt="Select Data Source">
 
-Point to the image. In my case, I downloaded the spanned DD image, so I pointed the path of the first segment. Autopsy will automatically recognize the spanned image when you point to the first segment.
+Point to the image. In my case, I downloaded the spanned DD image, so I pointed the path of the first segment. Autopsy will automatically recognize the spanned image when you point to the first segment. Click <strong>Next</strong>.
 <img src="./pics/6_Add_Data_Source2.png" alt="Select image data source">
 
-On the <bold>Configure Ingest</bold> step, there are multiple ingest modules. Most of them are available for free by default. Note: Cyber Triage Malware Scanner requires a paid license to scan the image for malware. Let's select all to see what happens. 
+On the <bold>Configure Ingest</bold> step, there are multiple ingest modules. Most of them are available for free by default. Note: Cyber Triage Malware Scanner requires a paid license to scan the image for malware. Let's select all to see what happens. Click <strong>Next</strong>.
 <img src="./pics/7_Configure_Ingest.png" alt="Configure Ingest">
 
-Click Next.
+Click <strong>Finish</strong>.
+
