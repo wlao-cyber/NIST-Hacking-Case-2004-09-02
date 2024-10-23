@@ -22,9 +22,10 @@ I will be using primarily Autopsy 4.21.0 (latest version as of 2024-10-22) to in
 ## Walkthrough, Questions, and Answers
 Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>.
 
-<img src="./pics/Autopsy_Start.png" alt="Start Autopsy">
+<img src="./pics/1_Autopsy_Start.png" alt="Start Autopsy">
 
 Then fill out the case information.
 
-<img src="./pics/New Case Fill Out.png" alt="Fill Out New Case">
+<img src="./pics/2_New Case Fill Out.png" alt="Fill Out New Case">
+
 
