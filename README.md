@@ -60,11 +60,16 @@ After the ingest, you can click on the bottom right and see the errors and findi
 
 ## Questions and Answers
 ### 1. What is the image hash? Does the acquisition and verification hash match?
-The acquisition log provided by NIST does not appear to have the image hash of the entire image.
+The image hashes by algorithm are the following:<br>
+MD5: aee4fcd9301c03b3b054623ca261959a<br>
+SHA1: da2fe30fe21711edf42310873af475859a68f300<br>
+SHA-256: 65e2002fed0b286f49541c7e97dcec0dda913d51a063ceeed86782bdacda2312<br>
+
+The acquisition log provided by NIST does not appear to have the image hash of the entire image. The hash provided by NIST is the MD5 hash value of AEE4FCD9301C03B3B054623CA261959A, which is a match.
 
 <img src="./pics/10_Acquisition_Log.png" alt="Acquisiton Log">
 
-There are different ways to find the image hash. One way is to simply click on the image on the <strong>Data Sources</strong> node and check the Results Viewer on the bottom under the <strong>File Metadata</strong> tab.
+There are different ways to find the image hash. One way is to simply click on the image in the Results Viewer and then checking the bottom pane under the <strong>File Metadata</strong> tab.
 
 <img src="./pics/10_Image_Results_Viewer_Bottom.png" alt="Results Viewer File Metadata on Image">
 
