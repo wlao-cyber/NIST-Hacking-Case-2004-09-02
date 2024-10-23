@@ -25,6 +25,7 @@ Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>
 <img src="./pics/1_Autopsy_Start.png" alt="Start Autopsy">
 
 Set a case name. The additional information like case number is optional. Click <strong>Next</strong> and then <strong>Finish</strong>.
+
 <img src="./pics/2_New Case Fill Out.png" alt="Fill Out New Case">
 
 <img src="./pics/3_New Case Information.png" alt="Optional Additional Case Information">
@@ -34,25 +35,48 @@ Add the data source. Click <strong>Next</strong>.
 <img src="./pics/4_Add_Data_Source.png" alt="Add Data Source">
 
 For Data Source Type, select <strong>Disk Image or VM File</strong>. Click <strong>Next</strong>.
+
 <img src="./pics/5_Select_Data_Source.png" alt="Select Data Source">
 
 Point to the image. In my case, I downloaded the spanned DD image, so I pointed the path of the first segment. Autopsy will automatically recognize the spanned image when you point to the first segment. Click <strong>Next</strong>.
+
 <img src="./pics/6_Add_Data_Source2.png" alt="Select image data source">
 
 On the <bold>Configure Ingest</bold> step, there are multiple ingest modules. Most of them are available for free by default. Note: Cyber Triage Malware Scanner requires a paid license to scan the image for malware. Let's select all to see what happens. Click <strong>Next</strong>.
+
 <img src="./pics/7_Configure_Ingest.png" alt="Configure Ingest">
 
 Click <strong>Finish</strong> on the last step.
+
 <img src="./pics/7_Data_Source_Added.png" alt="Data Source Added">
 
 Autospy will then begin ingesting. Note the bottom right corner showing the ingest progress.
+
 <img src="./pics/8_Ingesting.png" alt="Ingest">
 
 After the ingest, you can click on the bottom right and see the errors and findings post-ingest.
+
 <img src="./pics/9_Finished_Ingesting.png" alt="Post-Ingest Errors">
 
 ## Questions and Answers
 ### 1. What is the image hash? Does the acquisition and verification hash match?
+The acquisition log provided by NIST does not appear to have the image hash of the entire image.
+
+<img src="./pics/10_Acquisition_Log.png" alt="Acquisiton Log">
+
+There are different ways to find the image hash. One way is to simply click on the image on the <strong>Data Sources</strong> node and check the Results Viewer on the bottom under the <strong>File Metadata</strong> tab.
+
+<img src="./pics/10_Image_Results_Viewer_Bottom.png" alt="Results Viewer File Metadata on Image">
+
+Another method is to click right-click on the image from the <strong>Data Sources</strong> node and select the <strong>View Summary Information</strong> option.
+
+<img src="./pics/10_View_Summary.png" alt="View Summary">
+
+Then select the image and go to the <strong>Container</strong> tab.
+
+<img src="./pics/10_View_Summary_Click_Image.png" alt="Click Image in View Summary Information">
+<img src="./pics/10_View_Summary_Container.png" alt="Container Tab in View Summary Information">
+
 ### 2. What operating system was used on the computer?
 ### 3. When was the install date?
 ### 4. What is the timezone settings?
