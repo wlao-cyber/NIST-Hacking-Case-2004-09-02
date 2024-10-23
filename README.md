@@ -28,4 +28,9 @@ Then fill out the case information.
 
 <img src="./pics/2_New Case Fill Out.png" alt="Fill Out New Case">
 
+<img src="./pics/3_New Case Information.png" alt="Optional Additional Case Information">
+
+Add the data source.
+
+<img src="./pics/4_Add_Data_Source.png" alt="Add Data Source">
 
