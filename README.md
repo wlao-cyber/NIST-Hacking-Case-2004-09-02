@@ -42,5 +42,5 @@ Point to the image. In my case, I downloaded the spanned DD image, so I pointed 
 On the <bold>Configure Ingest</bold> step, there are multiple ingest modules. Most of them are available for free by default. Note: Cyber Triage Malware Scanner requires a paid license to scan the image for malware. Let's select all to see what happens. Click <strong>Next</strong>.
 <img src="./pics/7_Configure_Ingest.png" alt="Configure Ingest">
 
-Click <strong>Finish</strong>.
-
+Click <strong>Finish</strong> on the last step.
+<img src="./pics/7_Data_Source_Added.png" alt="Data Source Added">
