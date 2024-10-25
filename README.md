@@ -99,6 +99,11 @@ We can navigate to the registry key by selecting the <strong>Application</strong
 
 <img src="./pics/11_SOFTWARE_Registry_Hive_OS_Info.png" alt="OS Info in SOFTWARE Registry">
 
+According to <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/overview-of-the-boot-ini-file" target="_blank">Microsoft</a></span>:<br>
+<em>The <strong>Boot.ini</strong> file is a text file that contains the boot options for computers with BIOS firmware running NT-based operating system prior to Windows Vista. It's located at the root of the system partition, typically <strong>c:\Boot.ini</strong>.</em>
+
+<img src="./pics/11_OS_Information_boot.ini_file.png" alt="boot.ini file">
+
 ### 3. When was the install date?
 Thursday, August 19, 2004 10:48:27 PM GMT or
 <br>
