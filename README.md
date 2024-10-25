@@ -146,10 +146,9 @@ Autopsy automatically parses the SAM registry and provides the accounts informat
 
 User ID above 1000, ie., 1003, means a custom-made account, not a default one.
 
-Based on the User ID, login count, and description, "Mr. Evil" is the only valid custom-made user account. The other account with a User ID greater than 1000 is the vendor's account and has 0 logins.
+Based on the User ID, login count, and description, "Mr. Evil" is the only valid custom-made user account. The other account with a User ID greater than 1000 is the vendor's account and has 0 login counts.
 
 <img src="./pics/15_OS_Accounts.png" alt="OS Accounts">
-
 <img src="./pics/15_OS_Accounts_Description.png" alt="OS Accounts Descriptions">
 
 The computer account name can be found in the SAM registry hive as well as the SOFTWARE hive.
@@ -157,11 +156,19 @@ The computer account name can be found in the SAM registry hive as well as the S
 The SAM (Security Account Manager) registry hive contains user account, login, and group information.
 
 The SAM registry hive is in the following location:
-\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\SAM
+<strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\SAM</strong>
 
 We can navigate to the Users 
-SAM\Domains\Account\Users
+<strong>SAM\Domains\Account\Users</strong>
 
+Unfortunately, Autopsy's <strong>Application</strong> view does not provide as much information on the SAM registry hive's <strong>Users</strong> key. However, all the essential information can be seen in the aforementioned <strong>OS Accounts</strong> node in the Tree Viewer.
+
+<img src="./pics/15_SAM_Registry_Users.png" alt="SAM Registry Users">
+
+We can also look in the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultUser</strong> value:<br>
+<strong>software\Microsoft\Windows NT\CurrentVersion\Winlogon</strong>
+
+<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DefaultUser.png" alt="DefaultUser in SOFTWARE Registry">
 
 ### 7. What is the primary domain name?
 N-1A9ODN6ZXK4LQ
