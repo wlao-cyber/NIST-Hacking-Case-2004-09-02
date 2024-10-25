@@ -155,20 +155,20 @@ The computer account name can be found in the SAM registry hive as well as the S
 
 The SAM (Security Account Manager) registry hive contains user account, login, and group information.
 
-The SAM registry hive is in the following location:
+The SAM registry hive is in the following location:<br>
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\SAM</strong>
 
-We can navigate to the Users 
+We can navigate to the Users key:<br>
 <strong>SAM\Domains\Account\Users</strong>
 
-Unfortunately, Autopsy's <strong>Application</strong> view does not provide as much information on the SAM registry hive's <strong>Users</strong> key. However, all the essential information can be seen in the aforementioned <strong>OS Accounts</strong> node in the Tree Viewer.
+Unfortunately, Autopsy's <strong>Application</strong> view does not provide much information on the SAM registry hive's <strong>Users</strong> key. However, all the essential information can be seen in the aforementioned <strong>OS Accounts</strong> node in the Tree Viewer.
 
 <img src="./pics/15_SAM_Registry_Users.png" alt="SAM Registry Users">
 
-We can also look in the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultUser</strong> value:<br>
+We can also look in the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultUserName</strong> value:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion\Winlogon</strong>
 
-<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DefaultUser.png" alt="DefaultUser in SOFTWARE Registry">
+<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DefaultUser.png" alt="DefaultUserName in SOFTWARE Registry">
 
 ### 7. What is the primary domain name?
 N-1A9ODN6ZXK4LQ
