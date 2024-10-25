@@ -118,7 +118,7 @@ To convert to human-readable date, we need to convert epoch from seconds to huma
 ### 4. What is the timezone settings?
 Central Daylight Time (-05hrs GMT)
 
-For finding the Time Zone Information, we can look at the <strong>TimeZoneInformation</strong> registry value within the SYSTEM registry hive.
+To find the Time Zone Information, we can look at the <strong>TimeZoneInformation</strong> registry value within the SYSTEM registry hive.
 
 The SYSTEM hive is here:
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\system</strong>
