@@ -120,11 +120,13 @@ Central Daylight Time (-05hrs GMT)
 
 To find the Time Zone Information, we can look at the <strong>TimeZoneInformation</strong> registry value within the SYSTEM registry hive.
 
-The SYSTEM hive is here:
+The SYSTEM hive is in the following location:<br>
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\system</strong>
 
 After selecting the SYSTEM hive file, we can navigate to the <strong>TimeZoneInformation</strong> registry value under the <strong>Application</strong> tab:
 <strong>system\CurrentControlSet</strong>[00X]<strong>\Control\TimeZoneInformation</strong>
+
+<img src="./pics/13_SYSTEM_Registry_Hive_TimeZone.png" alt="TimeZoneInformation in SYSTEM Registry">
 
 ### 5. Who is the registered owner?
 ### 6. What is the computer account name?
