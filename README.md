@@ -142,11 +142,15 @@ The registered owner can also be found under the SOFTWARE hive's <strong>Current
 
 Mr. Evil
 
-Autopsy automatically parses the SAM registry and provides the accounts information under the <strong>OS Accounts</strong> node in the Tree Viewer.
+Autopsy automatically parses the SAM registry and provides the accounts information under the <strong>OS Accounts</strong> node in the Tree Viewer. 
 
 User ID above 1000, ie., 1003, means a custom-made account, not a default one.
 
-Based on the User ID, login count, and description, "Mr. Evil" is the only valid custom-made user account.
+Based on the User ID, login count, and description, "Mr. Evil" is the only valid custom-made user account. The other account with a User ID greater than 1000 is the vendor's account and has 0 logins.
+
+<img src="./pics/15_OS_Accounts.png" alt="OS Accounts">
+
+<img src="./pics/15_OS_Accounts_Description.png" alt="OS Accounts Descriptions">
 
 The computer account name can be found in the SAM registry hive as well as the SOFTWARE hive.
 
