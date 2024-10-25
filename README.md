@@ -193,6 +193,13 @@ The same domain name can be found under the SOFTWARE hive's <strong>Winlogon</st
 <img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DomainName.png" alt="DefaultDomainName in SOFTWARE Registry">
 
 ### 8. When was the last recorded computer shutdown date/time?
+08/27/04 10:46:33AM
+
+The last recorded shutdown time can be found in the SYSTEM registry hive's <strong>Windows</strong> key:<br>
+<strong>system\CurrentControlSet\Control\Windows</strong>
+
+The <strong>ShutdownTime</strong> value is in Big Endian hexadecimal form.
+
 ### 9. How many accounts are recorded (total number)?
 ### 10. What is the account name of the user who mostly uses the computer?
 ### 11. Who was the last user to logon to the computer?
