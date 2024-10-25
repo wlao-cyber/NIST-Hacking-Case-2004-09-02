@@ -93,7 +93,9 @@ If Autopsy didn't automatically provide this as an artifact, we can also look fo
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\software</strong>
 
 The operating system information should be under the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive:
-<strong>\Microsoft\Windows NT\CurrentVersion</strong>
+<strong>software\Microsoft\Windows NT\CurrentVersion</strong>
+
+We can navigate to the registry key by selecting the <strong>Application</strong> tab in the Results Viewer after selecting the SOFTWARE hive file.
 
 <img src="./pics/11_SOFTWARE_Registry_Hive_OS_Info.png" alt="OS Info in SOFTWARE Registry">
 
@@ -114,6 +116,16 @@ To convert to human-readable date, we need to convert epoch from seconds to huma
 <img src="./pics/12_Epoch_Converter.png" alt="Epoch Conversion to Human Date">
 
 ### 4. What is the timezone settings?
+Central Daylight Time (-05hrs GMT)
+
+For finding the Time Zone Information, we can look at the <strong>TimeZoneInformation</strong> registry value within the SYSTEM registry hive.
+
+The SYSTEM hive is here:
+<strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\system</strong>
+
+After selecting the SYSTEM hive file, we can navigate to the <strong>TimeZoneInformation</strong> registry value under the <strong>Application</strong> tab:
+<strong>system\CurrentControlSet</strong>[00X]<strong>\Control\TimeZoneInformation</strong>
+
 ### 5. Who is the registered owner?
 ### 6. What is the computer account name?
 ### 7. What is the primary domain name?
