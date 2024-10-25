@@ -140,6 +140,23 @@ The registered owner can also be found under the SOFTWARE hive's <strong>Current
 
 ### 6. What is the computer account name?
 
+Mr. Evil
+
+Autopsy automatically parses the SAM registry and provides the accounts information under the <strong>OS Accounts</strong> node in the Tree Viewer.
+
+User ID above 1000, ie., 1003, means a custom-made account, not a default one.
+
+Based on the User ID, login count, and description, "Mr. Evil" is the only valid custom-made user account.
+
+The computer account name can be found in the SAM registry hive as well as the SOFTWARE hive.
+
+The SAM (Security Account Manager) registry hive contains user account, login, and group information.
+
+The SAM registry hive is in the following location:
+\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\SAM
+
+We can navigate to the Users 
+SAM\Domains\Account\Users
 
 
 ### 7. What is the primary domain name?
