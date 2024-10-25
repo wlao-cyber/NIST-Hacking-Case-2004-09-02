@@ -155,6 +155,8 @@ The computer account name can be found under the SYSTEM hive's <strong>ComputerN
 The same domain name can be found under the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultDomainName</strong> value:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion\Winlogon</strong>
 
+<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DomainName.png" alt="DefaultDomainName in SOFTWARE Registry">
+
 ### 8. When was the last recorded computer shutdown date/time?
 ### 9. How many accounts are recorded (total number)?
 ### 10. What is the account name of the user who mostly uses the computer?
