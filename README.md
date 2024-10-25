@@ -136,6 +136,8 @@ Greg Schardt
 The registered owner can also be found under the SOFTWARE hive's <strong>CurrentVersion</strong> registry key but this time under the <strong>RegisteredOwner</strong> value:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion</strong>
 
+<img src="./pics/14_SOFTWARE_Registry_Hive_RegisteredOwner.png" alt="RegisteredOwner in SOFTWARE Registry">
+
 ### 6. What is the computer account name?
 ### 7. What is the primary domain name?
 ### 8. When was the last recorded computer shutdown date/time?
