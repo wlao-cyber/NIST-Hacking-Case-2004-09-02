@@ -102,7 +102,7 @@ Thursday, August 19, 2004 10:48:27 PM GMT or
 <br>
 Thursday, August 19, 2004 5:48:27 PM GMT-05:00 (local US Central Time)
 
-The install date can be found in the InstallDate value, which is also within the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive
+The install date can be found in the <strong>InstallDate</strong> value, which is also within the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive.
 
 <img src="./pics/12_SOFTWARE_Registry_Hive_OS_Info_InstallDate.png" alt="InstallDate in SOFTWARE Registry">
 
