@@ -139,14 +139,22 @@ The registered owner can also be found under the SOFTWARE hive's <strong>Current
 <img src="./pics/14_SOFTWARE_Registry_Hive_RegisteredOwner.png" alt="RegisteredOwner in SOFTWARE Registry">
 
 ### 6. What is the computer account name?
+
+
+
+### 7. What is the primary domain name?
 N-1A9ODN6ZXK4LQ
+
+Domain name or workgroup is a subset of the computer name.
 
 The computer account name can be found under the SYSTEM hive's <strong>ComputerName</strong> key:<br>
 <strong>system\CurrentControlSet</strong>[00X]<strong>\Control\ComputerName</strong>
 
 <img src="./pics/15_SYSTEM_Registry_Hive_ComputerName.png" alt="ComputerName in SYSTEM Registry">
 
-### 7. What is the primary domain name?
+The same domain name can be found under the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultDomainName</strong> value:<br>
+<strong>software\Microsoft\Windows NT\CurrentVersion\Winlogon</strong>
+
 ### 8. When was the last recorded computer shutdown date/time?
 ### 9. How many accounts are recorded (total number)?
 ### 10. What is the account name of the user who mostly uses the computer?
