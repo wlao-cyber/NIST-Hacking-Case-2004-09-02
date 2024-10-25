@@ -126,6 +126,8 @@ The SYSTEM hive is in the following location:<br>
 After selecting the SYSTEM hive file, we can navigate to the <strong>TimeZoneInformation</strong> registry value under the <strong>Application</strong> tab:
 <strong>system\CurrentControlSet</strong>[00X]<strong>\Control\TimeZoneInformation</strong>
 
+Note: It's common to see two Control Sets, <strong>ControlSet001</strong> and <strong>ControlSet002</strong>. In most cases (but not always), <strong>ControlSet001</strong> will point to the Control Set that the machine booted with, and <strong>ControlSet002</strong> will be the last known good configuration. 
+
 <img src="./pics/13_SYSTEM_Registry_Hive_TimeZone.png" alt="TimeZoneInformation in SYSTEM Registry">
 
 ### 5. Who is the registered owner?
