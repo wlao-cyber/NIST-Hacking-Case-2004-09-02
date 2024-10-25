@@ -92,7 +92,7 @@ Autopsy automatically parses this information under Tree Viewer's <strong>Data A
 If Autopsy didn't automatically provide this as an artifact, we can also look for the information in the SOFTWARE registry hive:<br>
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\software</strong>
 
-The operating system information should be under the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive:
+The operating system information should be under the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion</strong>
 
 We can navigate to the registry key by selecting the <strong>Application</strong> tab in the Results Viewer after selecting the SOFTWARE hive file.
@@ -131,6 +131,11 @@ Note: It's common to see two Control Sets, <strong>ControlSet001</strong> and <s
 <img src="./pics/13_SYSTEM_Registry_Hive_TimeZone.png" alt="TimeZoneInformation in SYSTEM Registry">
 
 ### 5. Who is the registered owner?
+Greg Schardt
+
+The registered owner can also be found under the SOFTWARE hive's <strong>CurrentVersion</strong> registry key but this time under the <strong>RegisteredOwner</strong> value:<br>
+<strong>software\Microsoft\Windows NT\CurrentVersion</strong>
+
 ### 6. What is the computer account name?
 ### 7. What is the primary domain name?
 ### 8. When was the last recorded computer shutdown date/time?
