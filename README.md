@@ -218,6 +218,14 @@ The outputted date is in UTC, so we need to subtract by 5 hours to get 2004-08-2
 <img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime_Conversion.png" alt="ShutdownTime Conversion">
 
 ### 9. How many accounts are recorded (total number)?
+Five accounts
+
+As mentioned in Question 6, the <strong>OS Accounts</strong> node in the Tree Viewer shows all the accounts.
+
+There are five accounts, each with a creation time. 
+
+<img src="./pics/17_OS_Accounts_Five_Accounts.png" alt="OS Accounts: Five Accounts">
+
 ### 10. What is the account name of the user who mostly uses the computer?
 ### 11. Who was the last user to logon to the computer?
 ### 12. A search for the name of “G=r=e=g S=c=h=a=r=d=t” reveals multiple hits. One of these proves that G=r=e=g S=c=h=a=r=d=t is Mr. Evil and is also the administrator of this computer. What file is it? What software program does this file relate to?
