@@ -193,12 +193,27 @@ The same domain name can be found under the SOFTWARE hive's <strong>Winlogon</st
 <img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DomainName.png" alt="DefaultDomainName in SOFTWARE Registry">
 
 ### 8. When was the last recorded computer shutdown date/time?
-08/27/04 10:46:33AM
+2004-08-27 10:46:33 AM Central Daylight Time.
 
 The last recorded shutdown time can be found in the SYSTEM registry hive's <strong>Windows</strong> key:<br>
 <strong>system\CurrentControlSet\Control\Windows</strong>
 
-The <strong>ShutdownTime</strong> value is in Big Endian hexadecimal form.
+The <strong>ShutdownTime</strong> value is in little endian hexadecimal form, which will need to be converted to human-readable form.
+
+<img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime.png" alt="ShutdownTime in SYSTEM Registry">
+
+I used 
+<a href="https://icyberchef.com" target="_blank">https://icyberchef.com</a></span>
+to convert from hexadecimal (little Endian) to human readable date. 
+
+The human readable date in UTC time is "Fri 27 August 2004 15:46:33 UTC."
+
+The link to the conversion recipe I used is 
+<a href="https://icyberchef.com/#recipe=Swap_endianness('Hex',8,true)Remove_whitespace(true,false,false,false,false,false)Windows_Filetime_to_UNIX_Timestamp('Seconds%20(s)','Hex%20(big%20endian)')From_UNIX_Timestamp('Seconds%20(s)')&input=QzQgRkMgMDAgMDcgNEQgOEMgQzQgMDEg" target="_blank">here</a></span>.
+
+The outputted date is in UTC, so we need to subtract by 5 hours to get 2004-08-27 10:46:33 AM Central Daylight Time.
+
+<img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime_Conversion.png" alt="ShutdownTime Conversion">
 
 ### 9. How many accounts are recorded (total number)?
 ### 10. What is the account name of the user who mostly uses the computer?
