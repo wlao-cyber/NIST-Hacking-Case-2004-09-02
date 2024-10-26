@@ -227,6 +227,11 @@ There are five accounts, each with a creation time.
 <img src="./pics/17_OS_Accounts_Five_Accounts.png" alt="OS Accounts: Five Accounts">
 
 ### 10. What is the account name of the user who mostly uses the computer?
+
+<strong>Mr. Evil</strong> has the most login counts at 15.
+
+<img src="./pics/18_OS_Accounts_Mr.Evil_Login_Counts.png" alt="Mr. Evil Login Counts">
+
 ### 11. Who was the last user to logon to the computer?
 ### 12. A search for the name of “G=r=e=g S=c=h=a=r=d=t” reveals multiple hits. One of these proves that G=r=e=g S=c=h=a=r=d=t is Mr. Evil and is also the administrator of this computer. What file is it? What software program does this file relate to?
 ### 13.  List the network cards used by this computer
