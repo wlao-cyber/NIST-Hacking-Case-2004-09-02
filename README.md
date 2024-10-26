@@ -209,7 +209,7 @@ to convert from hexadecimal (little Endian) to human readable date.
 The human readable date in UTC time is "Fri 27 August 2004 15:46:33 UTC."
 
 The link to the conversion recipe I used is 
-<a href="https://icyberchef.com/#recipe=Swap_endianness('Hex',8,true)Remove_whitespace(true,false,false,false,false,false)Windows_Filetime_to_UNIX_Timestamp('Seconds%20(s)','Hex%20(big%20endian)')From_UNIX_Timestamp('Seconds%20(s)')&input=QzQgRkMgMDAgMDcgNEQgOEMgQzQgMDEg" target="_blank">here</a></span>.
+<a href="https://icyberchef.com/#recipe=Remove_whitespace(true,false,false,false,false,false)Windows_Filetime_to_UNIX_Timestamp('Seconds%20(s)','Hex%20(little%20endian)')From_UNIX_Timestamp('Seconds%20(s)')&input=QzQgRkMgMDAgMDcgNEQgOEMgQzQgMDEg" target="_blank">here</a></span>.
 
 The outputted date is in UTC, so we need to subtract by 5 hours to get 2004-08-27 10:46:33 AM Central Daylight Time.
 
