@@ -204,7 +204,9 @@ The <strong>ShutdownTime</strong> value is in little endian hexadecimal form, wh
 
 I used 
 <a href="https://icyberchef.com" target="_blank">https://icyberchef.com</a></span>
-to convert from hexadecimal (little Endian) to human readable date. 
+to convert from hexadecimal (little Endian) time to human readable date. The spaces between the hexadecimals need to be removed prior to conversion. 
+The first conversion is from the little endian (without spaces) hexadecimal number to the epoch time in seconds. 
+The seconds represents the time elapsed since 00:00:00 UTC on 1 January 1970, the Unix epoch. And from the seconds, we can determine the exact date/time.
 
 The human readable date in UTC time is "Fri 27 August 2004 15:46:33 UTC."
 
