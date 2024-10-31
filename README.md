@@ -237,8 +237,11 @@ There are five accounts, each with a creation time.
 <img src="./pics/19_OS_Accounts_Mr.Evil_Last_Login.png" alt="Mr. Evil Last Login">
 
 ### 12. A search for the name of “G=r=e=g S=c=h=a=r=d=t” reveals multiple hits. One of these proves that G=r=e=g S=c=h=a=r=d=t is Mr. Evil and is also the administrator of this computer. What file is it? What software program does this file relate to?
-The file is:<br>
+Autopsy has the file path as (because the 001 image was loaded):<br>
 <strong>\img_SCHARDT.001\vol_vol2\Program Files\Look@LAN\irunin.ini</strong>
+
+From the user view in Windows XP, the file would normally be in the C: drive's Program Files directory:<br>
+<strong>C:\Program Files\Look@LAN\irunin.ini</strong>
 
 Look@LAN is the software program.
 
