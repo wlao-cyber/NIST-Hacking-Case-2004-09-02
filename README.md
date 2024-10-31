@@ -237,6 +237,13 @@ There are five accounts, each with a creation time.
 <img src="./pics/19_OS_Accounts_Mr.Evil_Last_Login.png" alt="Mr. Evil Last Login">
 
 ### 12. A search for the name of “G=r=e=g S=c=h=a=r=d=t” reveals multiple hits. One of these proves that G=r=e=g S=c=h=a=r=d=t is Mr. Evil and is also the administrator of this computer. What file is it? What software program does this file relate to?
+The file is:<br>
+<strong>\img_SCHARDT.001\vol_vol2\Program Files\Look@LAN\irunin.ini</strong>
+
+Look@LAN is the software program.
+
+<img src="./pics/20_Greg_Schardt_Search_Look@LAN.png" alt="Search on Greg Schardt">
+
 ### 13.  List the network cards used by this computer
 ### 14. This same file reports the IP address and MAC address of the computer. What are they?
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
