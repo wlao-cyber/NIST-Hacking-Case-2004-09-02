@@ -286,13 +286,10 @@ A <a href="https://maclookup.app/macaddress/0010a4" target="_blank">search</a></
 <img src="./pics/23_Mac_Address_OUI_Lookup.png" alt="Mac Address OUI Lookup">
 
 ### 16. Find 6 installed programs that may be used for hacking.
-123 Write All Stored Passwords (finds passwords in registry)
-Anonymizer (hides IP tracks when browsing)
-CuteFTP (FTP software)
+Installed programs can be found in Program Files.
+
 Look&LAN_1.0 (network discovery tool)
 NetStumbler (wireless access point discovery tool)
-
-Installed programs can be found in Program Files.
 
 Cain & Abel v2.5 beta45 
 <ul>
@@ -312,16 +309,20 @@ Ethereal
     <li>finds passwords in registry</li>
 </ul>
     
-	Anonymizer
-•	hides IP tracks when browsing
-•	The name was changed to Anonymizer in 1997 when the company acquired a web based privacy proxy of the same name developed by Justin Boyan at Carnegie Mellon University School of Computer Science.
-•	One of the first web privacy companies founded, Anonymizer creates a VPN link between its servers and its users computer, creating a random IP address, rather than the one actually being used
-	CuteFTP (FTP software)
-•	CuteFTP is a series of FTP (file transfer protocol) client applications distributed and supported since 1996 by GlobalSCAPE, who later bought the rights to the software. 
-•	Both a Windows-based or Mac-based interface were made for both home and professional use.
-•	CuteFTP is used to transfer files between computers and File Transfer Protocol (FTP) servers to publish web pages, download digital images, music, multi-media files and software, and transfer files of any size or type between home and office
-•	Since 1999, CuteFTP Pro and CuteFTP Mac Pro have also been available alongside CuteFTP Home with free trial periods.
-•	It was originally developed by Alex Kunadze, a Russian programmer.
+Anonymizer
+<ul>
+    <li>hides IP tracks when browsing</li>
+    <li>The name was changed to Anonymizer in 1997 when the company acquired a web based privacy proxy of the same name developed by Justin Boyan at Carnegie Mellon University School of Computer Science</li>
+    <li>One of the first web privacy companies founded, Anonymizer creates a VPN link between its servers and its users computer, creating a random IP address, rather than the one actually being used</li>
+</ul>
+
+CuteFTP (FTP software)
+<ul>
+    <li>CuteFTP is a series of FTP (file transfer protocol) client applications distributed and supported since 1996 by GlobalSCAPE, who later bought the rights to the software.</li>
+    <li>Both a Windows-based or Mac-based interface were made for both home and professional use</li>
+    <li>CuteFTP is used to transfer files between computers and File Transfer Protocol (FTP) servers to publish web pages, download digital images, music, multi-media files and software, and transfer files of any size or type between home and office</li>
+    <li>Since 1999, CuteFTP Pro and CuteFTP Mac Pro have also been available alongside CuteFTP Home with free trial periods</li>
+</ul>
 	Look@LAN_1.0
 •	network discovery tool
 •	would scan the network every few minute and sound an alert when a device joined the network. It helped me to readily identify a user/device coming an going. Does anyone know of anything similiar today
