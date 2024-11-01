@@ -240,10 +240,10 @@ There are five accounts, each with a creation time.
 Autopsy has the file path as (because the 001 image was loaded):<br>
 <strong>\img_SCHARDT.001\vol_vol2\Program Files\Look@LAN\irunin.ini</strong>
 
-From the user view in Windows XP, the file would normally be in the <strong>C:\</strong> drive's Program Files directory:<br>
+From the user view in Windows XP, the file would normally be in the C:\ drive's Program Files directory:<br>
 <strong>C:\Program Files\Look@LAN\irunin.ini</strong>
 
-Look@LAN is the software program. it is used for network monitoring.
+Look@LAN is the software program, and it is used for network monitoring.
 
 <img src="./pics/20_Greg_Schardt_Search_Look@LAN.png" alt="Search on Greg Schardt">
 
