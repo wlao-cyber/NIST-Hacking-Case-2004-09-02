@@ -258,8 +258,10 @@ The network cards can be found in the <strong>NetworkCards</strong> registry key
 
 <img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Xircom_CardBus.png" alt="Xircom in NetworkCards key">
 
-Another registry key we can look at for network information is the following in the SYSTEM hive:<br>
+Another registry key we can look at for network information is the <strong>Network</strong> key in the SYSTEM hive:<br>
 <strong>system\ControlSet001\Control\Network</strong>
+
+This method may require drilling down under the GUIDs to look at <strong>Descriptions</strong> values as shown below.
 
 <img src="./pics/21_SYSTEM_Registry_Hive_Network_Cards.png" alt="SYSTEM Registry Network">
 
