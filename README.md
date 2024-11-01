@@ -258,6 +258,11 @@ The network cards can be found in the <strong>NetworkCards</strong> registry key
 
 <img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Xircom_CardBus.png" alt="Xircom in NetworkCards key">
 
+Another registry key we can look at for network information is the following in the SYSTEM hive:<br>
+<strong>system\ControlSet001\Control\Network</strong>
+
+<img src="./pics/21_SYSTEM_Registry_Hive_Network_Cards.png" alt="SYSTEM Registry Network">
+
 ### 14. This same file reports the IP address and MAC address of the computer. What are they?
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
 ### 16. Find 6 installed programs that may be used for hacking.
