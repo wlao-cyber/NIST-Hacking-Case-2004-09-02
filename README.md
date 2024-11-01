@@ -324,14 +324,16 @@ CuteFTP (FTP software)
 Look@LAN_1.0
 <ul>
     <li>network discovery tool</li>
-    <li>would scan the network every few minute and sound an alert when a device joined the network. It helped me to readily identify a user/device coming an going. Does anyone know of anything similiar today</li>
-    <li>NetStumbler (wireless access point discovery tool</li>
-    <li>NetStumbler was a tool for Windows that facilitates detection of Wireless LANs using the 802.11b, 802.11a and 802.11g WLAN standards</li>
-    <li>It runs on Microsoft Windows operating systems from Windows 2000 to Windows XP</li>
-    <li>A trimmed-down version called MiniStumbler is available for the handheld Windows CE operating system</li>
+    <li>would scan the network every few minutes and sound an alert when a device joined the network. 
+    <li>helped readily identify a user/device</li>
 </ul>
 
-NetStumbler (wireless access point discovery tool)
+NetStumbler 
+<ul>
+    <li>wireless access point discovery tool</li>
+    <li>NetStumbler was a tool for Windows that facilitates detection of Wireless LANs using the 802.11b, 802.11a and 802.11g WLAN standards</li>
+    <li>It ran on Microsoft Windows operating systems from Windows 2000 to Windows XP as well as Windows CE on handheld devices</li>
+</ul>
 
 <img src="./pics/24_Program_Files_Hacking_Tools.png" alt="Program Files Hacking Tools">
 
