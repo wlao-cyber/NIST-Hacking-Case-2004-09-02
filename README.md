@@ -274,6 +274,8 @@ The file <strong>\img_SCHARDT.001\vol_vol2\Program Files\Look@LAN\irunin.ini</st
 
 This is the same file that came up when searching for "Greg Schardt" in Question 12.
 
+<img src="./pics/22_irunin.ini_file_IP_and_Mac_Address.png" alt="IP and Mac Address in Look@LAN file irunin.ini">
+
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
 ### 16. Find 6 installed programs that may be used for hacking.
 ### 17. What is the SMTP email address for Mr. Evil?
