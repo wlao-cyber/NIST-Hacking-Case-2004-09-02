@@ -277,6 +277,14 @@ This is the same file that came up when searching for "Greg Schardt" in Question
 <img src="./pics/22_irunin.ini_file_IP_and_Mac_Address.png" alt="IP and Mac Address in Look@LAN file irunin.ini">
 
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
+The Xircom NIC was used.
+
+The first 3 hexadecimals of a MAC address is the OUI (Organizational Unique Identifier). The OUI is the part of the MAC address that identifies the vendor of the network adapter. The OUI is the first three bytes of the six-byte field in a MAC address and is administered by the IEEE (Institute of Electrical and Electronics Engineers).
+
+A <a href="https://maclookup.app/macaddress/0010a4" target="_blank">search</a></span> for the OUI "0010a4" reveals the vendor Xircom.
+
+<img src="./pics/23_Mac_Address_OUI_Lookup.png" alt="Mac Address OUI Lookup">
+
 ### 16. Find 6 installed programs that may be used for hacking.
 ### 17. What is the SMTP email address for Mr. Evil?
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
