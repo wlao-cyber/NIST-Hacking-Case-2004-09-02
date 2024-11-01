@@ -248,11 +248,15 @@ Look@LAN is the software program, and it is used for network monitoring.
 <img src="./pics/20_Greg_Schardt_Search_Look@LAN.png" alt="Search on Greg Schardt">
 
 ### 13.  List the network cards used by this computer
-Xircom CardBus Ethernet 100 + Modem 56 (Ethernet Interface)
+Xircom CardBus Ethernet 100 + Modem 56 (Ethernet Interface)<br>
 Compaq WL110 Wireless LAN PC Card
 
 The network cards can be found in the <strong>NetworkCards</strong> registry key within the software registry hive:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion\NetworkCards</strong>
+
+<img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Compaq.png" alt="Compaq in NetworkCards key">
+
+<img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Xircom_CardBus.png" alt="Xircom in NetworkCards key">
 
 ### 14. This same file reports the IP address and MAC address of the computer. What are they?
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
