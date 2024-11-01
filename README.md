@@ -266,6 +266,14 @@ This method may require drilling down under the GUIDs to look at <strong>Descrip
 <img src="./pics/21_SYSTEM_Registry_Hive_Network_Cards.png" alt="SYSTEM Registry Network">
 
 ### 14. This same file reports the IP address and MAC address of the computer. What are they?
+The file <strong>\img_SCHARDT.001\vol_vol2\Program Files\Look@LAN\irunin.ini</strong> has the following text:<br>
+<strong>
+%LANIP%=192.168.1.111 <br>
+%LANNIC%=0010a4933e09 <br>
+</strong>
+
+This is the same file that came up when searching for "Greg Schardt" in Question 12.
+
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
 ### 16. Find 6 installed programs that may be used for hacking.
 ### 17. What is the SMTP email address for Mr. Evil?
