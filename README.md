@@ -288,8 +288,17 @@ A <a href="https://maclookup.app/macaddress/0010a4" target="_blank">search</a></
 ### 16. Find 6 installed programs that may be used for hacking.
 Installed programs can be found in Program Files.
 
-Look&LAN_1.0 (network discovery tool)
-NetStumbler (wireless access point discovery tool)
+123 WASP (Write All Stored Passwords)
+<ul>
+    <li>finds passwords in registry</li>
+</ul>
+    
+Anonymizer
+<ul>
+    <li>hides IP tracks when browsing</li>
+    <li>The name was changed to Anonymizer in 1997 when the company acquired a web based privacy proxy of the same name developed by Justin Boyan at Carnegie Mellon University School of Computer Science</li>
+    <li>One of the first web privacy companies founded, Anonymizer creates a VPN link between its servers and its users computer, creating a random IP address, rather than the one actually being used</li>
+</ul>
 
 Cain & Abel v2.5 beta45 
 <ul>
@@ -304,18 +313,6 @@ Ethereal
     <li>Originally named Ethereal, the project was renamed Wireshark in May 2006 due to trademark issues</li>
 </ul>
 
-123 WASP (Write All Stored Passwords)
-<ul>
-    <li>finds passwords in registry</li>
-</ul>
-    
-Anonymizer
-<ul>
-    <li>hides IP tracks when browsing</li>
-    <li>The name was changed to Anonymizer in 1997 when the company acquired a web based privacy proxy of the same name developed by Justin Boyan at Carnegie Mellon University School of Computer Science</li>
-    <li>One of the first web privacy companies founded, Anonymizer creates a VPN link between its servers and its users computer, creating a random IP address, rather than the one actually being used</li>
-</ul>
-
 CuteFTP (FTP software)
 <ul>
     <li>CuteFTP is a series of FTP (file transfer protocol) client applications distributed and supported since 1996 by GlobalSCAPE, who later bought the rights to the software.</li>
@@ -323,14 +320,20 @@ CuteFTP (FTP software)
     <li>CuteFTP is used to transfer files between computers and File Transfer Protocol (FTP) servers to publish web pages, download digital images, music, multi-media files and software, and transfer files of any size or type between home and office</li>
     <li>Since 1999, CuteFTP Pro and CuteFTP Mac Pro have also been available alongside CuteFTP Home with free trial periods</li>
 </ul>
-	Look@LAN_1.0
-•	network discovery tool
-•	would scan the network every few minute and sound an alert when a device joined the network. It helped me to readily identify a user/device coming an going. Does anyone know of anything similiar today
-	NetStumbler (wireless access point discovery tool
-•	NetStumbler was a tool for Windows that facilitates detection of Wireless LANs using the 802.11b, 802.11a and 802.11g WLAN standards.
-•	It runs on Microsoft Windows operating systems from Windows 2000 to Windows XP. 
-•	A trimmed-down version called MiniStumbler is available for the handheld Windows CE operating system.
 
+Look@LAN_1.0
+<ul>
+    <li>network discovery tool</li>
+    <li>would scan the network every few minute and sound an alert when a device joined the network. It helped me to readily identify a user/device coming an going. Does anyone know of anything similiar today</li>
+    <li>NetStumbler (wireless access point discovery tool</li>
+    <li>NetStumbler was a tool for Windows that facilitates detection of Wireless LANs using the 802.11b, 802.11a and 802.11g WLAN standards</li>
+    <li>It runs on Microsoft Windows operating systems from Windows 2000 to Windows XP</li>
+    <li>A trimmed-down version called MiniStumbler is available for the handheld Windows CE operating system</li>
+</ul>
+
+NetStumbler (wireless access point discovery tool)
+
+<img src="./pics/24_Program_Files_Hacking_Tools.png" alt="Program Files Hacking Tools">
 
 ### 17. What is the SMTP email address for Mr. Evil?
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
