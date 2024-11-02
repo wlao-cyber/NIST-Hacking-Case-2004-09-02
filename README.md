@@ -22,41 +22,41 @@ I will be using the free open-source tool Autopsy 4.21.0 (latest version as of 2
 ## Initial Walkthrough and Case Setup
 Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>.
 
-<img src="./pics/1_Autopsy_Start.png" alt="Start Autopsy" target="_blank">
+<img src="./pics/1_Autopsy_Start.png" target="_blank" alt="Start Autopsy">
 
 Set a case name. The additional information like case number is optional. Click <strong>Next</strong> and then <strong>Finish</strong>.
 
-<img src="./pics/2_New Case Fill Out.png" alt="Fill Out New Case">
+<img src="./pics/2_New Case Fill Out.png" target="_blank" alt="Fill Out New Case">
 
-<img src="./pics/3_New Case Information.png" alt="Optional Additional Case Information">
+<img src="./pics/3_New Case Information.png" target="_blank" alt="Optional Additional Case Information">
 
 Add the data source. Click <strong>Next</strong>.
 
-<img src="./pics/4_Add_Data_Source.png" alt="Add Data Source">
+<img src="./pics/4_Add_Data_Source.png" target="_blank" alt="Add Data Source">
 
 For Data Source Type, select <strong>Disk Image or VM File</strong>. Click <strong>Next</strong>.
 
-<img src="./pics/5_Select_Data_Source.png" alt="Select Data Source">
+<img src="./pics/5_Select_Data_Source.png" target="_blank" alt="Select Data Source">
 
 Point to the image. In my case, I downloaded the spanned DD image, so I pointed the path of the first segment. Autopsy will automatically recognize the spanned image when you point to the first segment. Click <strong>Next</strong>.
 
-<img src="./pics/6_Add_Data_Source2.png" alt="Select image data source">
+<img src="./pics/6_Add_Data_Source2.png" target="_blank" alt="Select image data source">
 
 On the <bold>Configure Ingest</bold> step, there are multiple ingest modules. Most of them are available for free by default. Note: Cyber Triage Malware Scanner requires a paid license to scan the image for malware. Let's select all to see what happens. Click <strong>Next</strong>.
 
-<img src="./pics/7_Configure_Ingest.png" alt="Configure Ingest">
+<img src="./pics/7_Configure_Ingest.png" target="_blank" alt="Configure Ingest">
 
 Click <strong>Finish</strong> on the last step.
 
-<img src="./pics/7_Data_Source_Added.png" alt="Data Source Added">
+<img src="./pics/7_Data_Source_Added.png" target="_blank" alt="Data Source Added">
 
 Autospy will then begin ingesting. Note the bottom right corner showing the ingest progress.
 
-<img src="./pics/8_Ingesting.png" alt="Ingest">
+<img src="./pics/8_Ingesting.png" target="_blank" alt="Ingest">
 
 After the ingest, you can click on the bottom right and see the errors and findings post-ingest.
 
-<img src="./pics/9_Finished_Ingesting.png" alt="Post-Ingest Errors">
+<img src="./pics/9_Finished_Ingesting.png" target="_blank" alt="Post-Ingest Errors">
 
 ## Questions and Answers
 ### 1. What is the image hash? Does the acquisition and verification hash match?
@@ -67,27 +67,27 @@ SHA-256: 65e2002fed0b286f49541c7e97dcec0dda913d51a063ceeed86782bdacda2312<br>
 
 The acquisition log provided by NIST does not appear to have the image hash of the entire image. The hash provided by NIST is the MD5 hash value of AEE4FCD9301C03B3B054623CA261959A, which is a match.
 
-<img src="./pics/10_Acquisition_Log.png" alt="Acquisiton Log">
+<img src="./pics/10_Acquisition_Log.png" target="_blank" alt="Acquisiton Log">
 
 There are different ways to find the image hash. One way is to simply click on the image in the Results Viewer and then checking the bottom pane under the <strong>File Metadata</strong> tab.
 
-<img src="./pics/10_Image_Results_Viewer_Bottom.png" alt="Results Viewer File Metadata on Image">
+<img src="./pics/10_Image_Results_Viewer_Bottom.png" target="_blank" alt="Results Viewer File Metadata on Image">
 
 Another method is to click right-click on the image from the <strong>Data Sources</strong> node and select the <strong>View Summary Information</strong> option.
 
-<img src="./pics/10_View_Summary.png" alt="View Summary">
+<img src="./pics/10_View_Summary.png" target="_blank" alt="View Summary">
 
 Then select the image and go to the <strong>Container</strong> tab.
 
-<img src="./pics/10_View_Summary_Click_Image.png" alt="Click Image in View Summary Information">
-<img src="./pics/10_View_Summary_Container.png" alt="Container Tab in View Summary Information">
+<img src="./pics/10_View_Summary_Click_Image.png" target="_blank" alt="Click Image in View Summary Information">
+<img src="./pics/10_View_Summary_Container.png" target="_blank" alt="Container Tab in View Summary Information">
 
 ### 2. What operating system was used on the computer?
 Windows XP
 
 Autopsy automatically parses this information under Tree Viewer's <strong>Data Artifacts</strong> node: <strong>Operating System Information</strong>
 
-<img src="./pics/11_OS_Information.png" alt="OS Information">
+<img src="./pics/11_OS_Information.png" target="_blank" alt="OS Information">
 
 If Autopsy didn't automatically provide this as an artifact, we can also look for the information in the SOFTWARE registry hive:<br>
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\software</strong>
@@ -97,14 +97,14 @@ The operating system information should be under the <strong>CurrentVersion</str
 
 We can navigate to the registry key by selecting the <strong>Application</strong> tab in the Results Viewer after selecting the SOFTWARE hive file.
 
-<img src="./pics/11_SOFTWARE_Registry_Hive_OS_Info.png" alt="OS Info in SOFTWARE Registry">
+<img src="./pics/11_SOFTWARE_Registry_Hive_OS_Info.png" target="_blank" alt="OS Info in SOFTWARE Registry">
 
 According to <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/overview-of-the-boot-ini-file" target="_blank">Microsoft</a></span>:<br>
 <em>The <strong>Boot.ini</strong> file is a text file that contains the boot options for computers with BIOS firmware running NT-based operating system prior to Windows Vista. It's located at the root of the system partition, typically <strong>c:\Boot.ini</strong>.</em>
 
 For operating systems before Windows Vista (2006), we can also use the <strong>boot.ini</strong> file to determine the operating system.
 
-<img src="./pics/11_OS_Information_boot.ini_file.png" alt="boot.ini file">
+<img src="./pics/11_OS_Information_boot.ini_file.png" target="_blank" alt="boot.ini file">
 
 ### 3. When was the install date?
 Thursday, August 19, 2004 10:48:27 PM GMT or
@@ -113,14 +113,14 @@ Thursday, August 19, 2004 5:48:27 PM GMT-05:00 (local US Central Time)
 
 The install date can be found in the <strong>InstallDate</strong> value, which is also within the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive.
 
-<img src="./pics/12_SOFTWARE_Registry_Hive_OS_Info_InstallDate.png" alt="InstallDate in SOFTWARE Registry">
+<img src="./pics/12_SOFTWARE_Registry_Hive_OS_Info_InstallDate.png" target="_blank" alt="InstallDate in SOFTWARE Registry">
 
 The install date is provided in both hexadecimal and decimal form. Note the 0x that precedes the numbers. This signifies hexadecimal form.<br>
 The number in parentheses represents the decimal number in UNIX time. UNIX time is a date and time representation widely used in computing that measures the time elapsed since 00:00:00 UTC on 1 January 1970, the Unix epoch.
 
 To convert to human-readable date, we need to convert epoch from seconds to human date. A website that can help with converting to human date is https://www.epochconverter.com/
 <br>
-<img src="./pics/12_Epoch_Converter.png" alt="Epoch Conversion to Human Date">
+<img src="./pics/12_Epoch_Converter.png" target="_blank" alt="Epoch Conversion to Human Date">
 
 ### 4. What is the timezone settings?
 Central Daylight Time (-05hrs GMT)
@@ -135,7 +135,7 @@ After selecting the SYSTEM hive file, we can navigate to the <strong>TimeZoneInf
 
 Note: It's common to see two Control Sets, <strong>ControlSet001</strong> and <strong>ControlSet002</strong>. In most cases (but not always), <strong>ControlSet001</strong> will point to the Control Set that the machine booted with, and <strong>ControlSet002</strong> will be the last known good configuration. 
 
-<img src="./pics/13_SYSTEM_Registry_Hive_TimeZone.png" alt="TimeZoneInformation in SYSTEM Registry">
+<img src="./pics/13_SYSTEM_Registry_Hive_TimeZone.png" target="_blank" alt="TimeZoneInformation in SYSTEM Registry">
 
 ### 5. Who is the registered owner?
 Greg Schardt
@@ -143,7 +143,7 @@ Greg Schardt
 The registered owner can also be found under the SOFTWARE hive's <strong>CurrentVersion</strong> registry key but this time under the <strong>RegisteredOwner</strong> value:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion</strong>
 
-<img src="./pics/14_SOFTWARE_Registry_Hive_RegisteredOwner.png" alt="RegisteredOwner in SOFTWARE Registry">
+<img src="./pics/14_SOFTWARE_Registry_Hive_RegisteredOwner.png" target="_blank" alt="RegisteredOwner in SOFTWARE Registry">
 
 ### 6. What is the computer account name?
 
@@ -155,8 +155,8 @@ User ID above 1000, ie., 1003, means a custom-made account, not a default one.
 
 Based on the User ID, login count, and description, "Mr. Evil" is the only valid custom-made user account. The other account with a User ID greater than 1000 is the vendor's account and has 0 login counts.
 
-<img src="./pics/15_OS_Accounts.png" alt="OS Accounts">
-<img src="./pics/15_OS_Accounts_Description.png" alt="OS Accounts Descriptions">
+<img src="./pics/15_OS_Accounts.png" target="_blank" alt="OS Accounts">
+<img src="./pics/15_OS_Accounts_Description.png" target="_blank" alt="OS Accounts Descriptions">
 
 The computer account name can be found in the SAM registry hive as well as the SOFTWARE hive.
 
@@ -170,12 +170,12 @@ We can navigate to the Users key:<br>
 
 Unfortunately, Autopsy's <strong>Application</strong> view does not provide much information on the SAM registry hive's <strong>Users</strong> key. However, all the essential information can be seen in the aforementioned <strong>OS Accounts</strong> node in the Tree Viewer.
 
-<img src="./pics/15_SAM_Registry_Users.png" alt="SAM Registry Users">
+<img src="./pics/15_SAM_Registry_Users.png" target="_blank" alt="SAM Registry Users">
 
 We can also look in the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultUserName</strong> value:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion\Winlogon</strong>
 
-<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DefaultUser.png" alt="DefaultUserName in SOFTWARE Registry">
+<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DefaultUser.png" target="_blank" alt="DefaultUserName in SOFTWARE Registry">
 
 ### 7. What is the primary domain name?
 N-1A9ODN6ZXK4LQ
@@ -185,12 +185,12 @@ Domain name or workgroup is a subset of the computer name.
 The computer account name can be found under the SYSTEM hive's <strong>ComputerName</strong> key:<br>
 <strong>system\CurrentControlSet</strong>[00X]<strong>\Control\ComputerName</strong>
 
-<img src="./pics/15_SYSTEM_Registry_Hive_ComputerName.png" alt="ComputerName in SYSTEM Registry">
+<img src="./pics/15_SYSTEM_Registry_Hive_ComputerName.png" target="_blank" alt="ComputerName in SYSTEM Registry">
 
 The same domain name can be found under the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultDomainName</strong> value:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion\Winlogon</strong>
 
-<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DomainName.png" alt="DefaultDomainName in SOFTWARE Registry">
+<img src="./pics/15_SOFTWARE_Registry_Hive_WinLogon_DomainName.png" target="_blank" alt="DefaultDomainName in SOFTWARE Registry">
 
 ### 8. When was the last recorded computer shutdown date/time?
 2004-08-27 10:46:33 AM Central Daylight Time.
@@ -200,7 +200,7 @@ The last recorded shutdown time can be found in the SYSTEM registry hive's <stro
 
 The <strong>ShutdownTime</strong> value is in little endian hexadecimal form, which will need to be converted to human-readable form.
 
-<img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime.png" alt="ShutdownTime in SYSTEM Registry">
+<img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime.png" target="_blank" alt="ShutdownTime in SYSTEM Registry">
 
 I used 
 <a href="https://icyberchef.com" target="_blank">https://icyberchef.com</a></span>
@@ -215,7 +215,7 @@ The link to the conversion recipe I used is
 
 The outputted date is in UTC, so we need to subtract by 5 hours to get 2004-08-27 10:46:33 AM Central Daylight Time.
 
-<img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime_Conversion.png" alt="ShutdownTime Conversion">
+<img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime_Conversion.png" target="_blank" alt="ShutdownTime Conversion">
 
 ### 9. How many accounts are recorded (total number)?
 Five accounts
@@ -224,17 +224,17 @@ As mentioned in Question 6, the <strong>OS Accounts</strong> node in the Tree Vi
 
 There are five accounts, each with a creation time. 
 
-<img src="./pics/17_OS_Accounts_Five_Accounts.png" alt="OS Accounts: Five Accounts">
+<img src="./pics/17_OS_Accounts_Five_Accounts.png" target="_blank" alt="OS Accounts: Five Accounts">
 
 ### 10. What is the account name of the user who mostly uses the computer?
 <strong>Mr. Evil</strong> has the most login counts at 15.
 
-<img src="./pics/18_OS_Accounts_Mr.Evil_Login_Counts.png" alt="Mr. Evil Login Counts">
+<img src="./pics/18_OS_Accounts_Mr.Evil_Login_Counts.png" target="_blank" alt="Mr. Evil Login Counts">
 
 ### 11. Who was the last user to logon to the computer?
 <strong>Mr. Evil</strong> is the only account with a last login.
 
-<img src="./pics/19_OS_Accounts_Mr.Evil_Last_Login.png" alt="Mr. Evil Last Login">
+<img src="./pics/19_OS_Accounts_Mr.Evil_Last_Login.png" target="_blank" alt="Mr. Evil Last Login">
 
 ### 12. A search for the name of “G=r=e=g S=c=h=a=r=d=t” reveals multiple hits. One of these proves that G=r=e=g S=c=h=a=r=d=t is Mr. Evil and is also the administrator of this computer. What file is it? What software program does this file relate to?
 Autopsy has the file path as (because the 001 image was loaded):<br>
@@ -245,7 +245,7 @@ From the user view in Windows XP, the file would normally be in the C:\ drive's 
 
 Look@LAN is the software program, and it is used for network monitoring.
 
-<img src="./pics/20_Greg_Schardt_Search_Look@LAN.png" alt="Search on Greg Schardt">
+<img src="./pics/20_Greg_Schardt_Search_Look@LAN.png" target="_blank" alt="Search on Greg Schardt">
 
 ### 13.  List the network cards used by this computer
 Xircom CardBus Ethernet 100 + Modem 56 (Ethernet Interface)<br>
@@ -254,16 +254,16 @@ Compaq WL110 Wireless LAN PC Card
 The network cards can be found in the <strong>NetworkCards</strong> registry key within the software registry hive:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion\NetworkCards</strong>
 
-<img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Compaq.png" alt="Compaq in NetworkCards key">
+<img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Compaq.png" target="_blank" alt="Compaq in NetworkCards key">
 
-<img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Xircom_CardBus.png" alt="Xircom in NetworkCards key">
+<img src="./pics/21_SOFTWARE_Registry_Hive_NetworkCards_Xircom_CardBus.png" target="_blank" alt="Xircom in NetworkCards key">
 
 Another registry key we can look at for network information is the <strong>Network</strong> key in the SYSTEM hive:<br>
 <strong>system\ControlSet001\Control\Network</strong>
 
 This method may require drilling down under the GUIDs to look at <strong>Descriptions</strong> values as shown below.
 
-<img src="./pics/21_SYSTEM_Registry_Hive_Network_Cards.png" alt="SYSTEM Registry Network">
+<img src="./pics/21_SYSTEM_Registry_Hive_Network_Cards.png" target="_blank" alt="SYSTEM Registry Network">
 
 ### 14. This same file reports the IP address and MAC address of the computer. What are they?
 The file <strong>\img_SCHARDT.001\vol_vol2\Program Files\Look@LAN\irunin.ini</strong> has the following text:<br>
@@ -274,7 +274,7 @@ The file <strong>\img_SCHARDT.001\vol_vol2\Program Files\Look@LAN\irunin.ini</st
 
 This is the same file that came up when searching for "Greg Schardt" in Question 12.
 
-<img src="./pics/22_irunin.ini_file_IP_and_Mac_Address.png" alt="IP and Mac Address in Look@LAN file irunin.ini">
+<img src="./pics/22_irunin.ini_file_IP_and_Mac_Address.png" target="_blank" alt="IP and Mac Address in Look@LAN file irunin.ini">
 
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
 The Xircom NIC was used.
@@ -283,7 +283,7 @@ The first 3 hexadecimals of a MAC address is the OUI (Organizational Unique Iden
 
 A <a href="https://maclookup.app/macaddress/0010a4" target="_blank">search</a></span> for the OUI "0010a4" reveals the vendor Xircom.
 
-<img src="./pics/23_Mac_Address_OUI_Lookup.png" alt="Mac Address OUI Lookup">
+<img src="./pics/23_Mac_Address_OUI_Lookup.png" target="_blank" alt="Mac Address OUI Lookup">
 
 ### 16. Find 6 installed programs that may be used for hacking.
 Installed programs can be found in Program Files.
@@ -333,7 +333,7 @@ NetStumbler
     <li>It ran on Microsoft Windows operating systems from Windows 2000 to Windows XP as well as Windows CE on handheld devices</li>
 </ul>
 
-<img src="./pics/24_Program_Files_Hacking_Tools.png" alt="Program Files Hacking Tools">
+<img src="./pics/24_Program_Files_Hacking_Tools.png" target="_blank" alt="Program Files Hacking Tools">
 
 ### 17. What is the SMTP email address for Mr. Evil?
 <strong>whoknowsme@sbcglobal.net</strong>
@@ -347,7 +347,7 @@ Unlike the other registry hives mentioned before that are located in <strong>C:\
 
 And for more recent operating systems, the <strong>NTUSER.DAT</strong> file is located in <strong>C:\Users</strong> directory.
 
-<img src="./pics/25_SMTP_NTUSER.DAT.png" alt="SMTP NTUSER.DAT">
+<img src="./pics/25_SMTP_NTUSER.DAT.png" target="_blank" alt="SMTP NTUSER.DAT">
 
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
 <strong>news.dallas.sbcglobal.net</strong>
@@ -356,7 +356,7 @@ The Network News Transfer Protocol (NNTP) is an application protocol used for tr
 
 Just like in the previous question, a keyword search for "NNTP" reveals the "NNTP Server" within the NTUSER.DAT registry hive's extracted text.
 
-<img src="./pics/26_NNTP_Server_NTUSER.DAT.png" alt="NNTP Server in NTUSER.DAT">
+<img src="./pics/26_NNTP_Server_NTUSER.DAT.png" target="_blank" alt="NNTP Server in NTUSER.DAT">
 
 ### 19. What two installed programs show this information?
 Outlook Express <br>
@@ -365,24 +365,24 @@ Forte Agent
 First, we can check to see what email clients are installed on the laptop by navigating to the registry key <strong>Mail</strong> in the SOFTWARE hive:<br>
 <strong>software\clients\Mail</strong>
 
-<img src="./pics/27_SOFTWARE_Registry_Hive_Email_Clients.png" alt="Email Clients in SOFTWARE hive">
+<img src="./pics/27_SOFTWARE_Registry_Hive_Email_Clients.png" target="_blank" alt="Email Clients in SOFTWARE hive">
 
 A keyword search for <strong>whoknowsme@sbcglobal.net</strong> shows the program Agent as well as NTUSER.DAT.
 
-<img src="./pics/27_Program_Files_Agent.png" alt="Program Files Agent">
+<img src="./pics/27_Program_Files_Agent.png" target="_blank" alt="Program Files Agent">
 
 A closer look into the NTUSER.DAT hive shows the SMTP email address <strong>whoknowsme@sbcglobal.net</strong> in the <strong>UnreadMail</strong> registry key:<br>
 <strong>NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\UnreadMail</strong>
 
 The associated application is <strong>msimn</strong>. A keyword search for "msimn" points to Outlook Express.
 
-<img src="./pics/27_NTUSER.DAT_Hive_UnreadMail.png" alt="UnreadMail in NTUSER.DAT">
+<img src="./pics/27_NTUSER.DAT_Hive_UnreadMail.png" target="_blank" alt="UnreadMail in NTUSER.DAT">
 
-<img src="./pics/27_msimn_Outlook_Express.png" alt="msimn.exe Outlook Express">
+<img src="./pics/27_msimn_Outlook_Express.png" target="_blank" alt="msimn.exe Outlook Express">
 
 A keyword search for <strong>news.dallas.sbcglobal.net</strong> shows the program Agent.
 
-<img src="./pics/27_NNTP_News_Server_Search_Agent.png" alt="NNTP News Server Search">
+<img src="./pics/27_NNTP_News_Server_Search_Agent.png" target="_blank" alt="NNTP News Server Search">
 
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
