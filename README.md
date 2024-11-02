@@ -362,7 +362,7 @@ Just like in the previous question, a keyword search for "NNTP" reveals the "NNT
 Outlook Express <br>
 Forte Agent
 
-First, we can check to see what email clients are installed on the laptop by navigating to the registry key <strong>Mail</strong> in the SOFTWARE hive:
+First, we can check to see what email clients are installed on the laptop by navigating to the registry key <strong>Mail</strong> in the SOFTWARE hive:<br>
 <strong>software\clients\Mail</strong>
 
 <img src="./pics/27_SOFTWARE_Registry_Hive_Email_Clients.png" alt="Email Clients in SOFTWARE hive">
