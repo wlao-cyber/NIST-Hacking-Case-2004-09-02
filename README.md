@@ -336,6 +336,15 @@ NetStumbler
 <img src="./pics/24_Program_Files_Hacking_Tools.png" alt="Program Files Hacking Tools">
 
 ### 17. What is the SMTP email address for Mr. Evil?
+whoknowsme@sbcglobal.net
+
+The Simple Mail Transfer Protocol (SMTP) is an Internet standard communication protocol for electronic mail transmission. Mail servers and other message transfer agents use SMTP to send and receive mail messages. 
+
+A search for SMTP reveals the "SMTP Email Address" within the NTUSER.DAT registry hive:<br>
+<strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\NTUSER.DAT</strong>
+
+<img src="./pics/25_SMTP_NTUSER.DAT.png" alt="SMTP NTUSER.DAT">
+
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
 ### 19. What two installed programs show this information?
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
