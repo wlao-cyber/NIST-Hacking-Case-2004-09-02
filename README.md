@@ -371,7 +371,7 @@ A keyword search for <strong>whoknowsme@sbcglobal.net</strong> shows the program
 
 <img src="./pics/27_Program_Files_Agent.png" alt="Program Files Agent">
 
-A closer look into the NTUSER.DAT hive shows the SMTP email address <strong>whoknowsme@sbcglobal.net</strong> in the <strong>UnreadMail</strong> registry key:
+A closer look into the NTUSER.DAT hive shows the SMTP email address <strong>whoknowsme@sbcglobal.net</strong> in the <strong>UnreadMail</strong> registry key:<br>
 <strong>NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\UnreadMail</strong>
 
 The associated application is <strong>msimn</strong>. A keyword search for "msimn" points to Outlook Express.
