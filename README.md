@@ -296,7 +296,6 @@ Installed programs can be found in Program Files.
 Anonymizer
 <ul>
     <li>hides IP tracks when browsing</li>
-    <li>The name was changed to Anonymizer in 1997 when the company acquired a web based privacy proxy of the same name developed by Justin Boyan at Carnegie Mellon University School of Computer Science</li>
     <li>One of the first web privacy companies founded, Anonymizer creates a VPN link between its servers and its users computer, creating a random IP address, rather than the one actually being used</li>
 </ul>
 
@@ -318,7 +317,6 @@ CuteFTP (FTP software)
     <li>CuteFTP is a series of FTP (file transfer protocol) client applications distributed and supported since 1996 by GlobalSCAPE, who later bought the rights to the software.</li>
     <li>Both a Windows-based or Mac-based interface were made for both home and professional use</li>
     <li>CuteFTP is used to transfer files between computers and File Transfer Protocol (FTP) servers to publish web pages, download digital images, music, multi-media files and software, and transfer files of any size or type between home and office</li>
-    <li>Since 1999, CuteFTP Pro and CuteFTP Mac Pro have also been available alongside CuteFTP Home with free trial periods</li>
 </ul>
 
 Look@LAN_1.0
