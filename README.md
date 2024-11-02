@@ -363,9 +363,22 @@ First, we can check to see what email clients are installed on the laptop by nav
 
 <img src="./pics/27_SOFTWARE_Registry_Hive_Email_Clients.png" alt="Email Clients in SOFTWARE hive">
 
-A keyword search for <strong>whoknowsme@sbcglobal.net</strong> shows the program Agent.
+A keyword search for <strong>whoknowsme@sbcglobal.net</strong> shows the program Agent as well as NTUSER.DAT.
 
-A keyword search for <strong>news.dallas.sbcglobal.net</strong> shows the program Outlook Express.
+<img src="./pics/27_Program_Files_Agent.png" alt="Program Files Agent">
+
+A closer look into the NTUSER.DAT hive shows the SMTP email address <strong>whoknowsme@sbcglobal.net</strong> in the <strong>UnreadMail</strong> registry key:
+<strong>NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\UnreadMail</strong>
+
+The associated application is <strong>msimn</strong>. A keyword search for "msimn" points to Outlook Express.
+
+<img src="./pics/27_NTUSER.DAT_Hive_UnreadMail.png" alt="UnreadMail in NTUSER.DAT">
+
+<img src="./pics/27_msimn_Outlook_Express.png" alt="msimn.exe Outlook Express">
+
+A keyword search for <strong>news.dallas.sbcglobal.net</strong> shows the program Agent.
+
+<img src="./pics/27_NNTP_News_Server_Search_Agent.png" alt="NNTP News Server Search">
 
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
