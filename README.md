@@ -348,7 +348,7 @@ A keyword search for "SMTP" reveals the "SMTP Email Address" within the NTUSER.D
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
 <strong>news.dallas.sbcglobal.net</strong>
 
-The Network News Transfer Protocol (NNTP) is an application protocol used for transporting Usenet news articles (netnews) between news servers, and for reading/posting articles by the end user client applications.
+The Network News Transfer Protocol (NNTP) is an application protocol used for transporting Usenet news articles (netnews) between news servers and for reading/posting articles by the end user client applications.
 
 Just like in the previous question, a keyword search for "NNTP" reveals the "NNTP Server" within the NTUSER.DAT registry hive's extracted text.
 
