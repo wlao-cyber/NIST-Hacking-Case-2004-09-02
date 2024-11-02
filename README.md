@@ -336,16 +336,24 @@ NetStumbler
 <img src="./pics/24_Program_Files_Hacking_Tools.png" alt="Program Files Hacking Tools">
 
 ### 17. What is the SMTP email address for Mr. Evil?
-whoknowsme@sbcglobal.net
+<strong>whoknowsme@sbcglobal.net</strong>
 
 The Simple Mail Transfer Protocol (SMTP) is an Internet standard communication protocol for electronic mail transmission. Mail servers and other message transfer agents use SMTP to send and receive mail messages. 
 
-A search for SMTP reveals the "SMTP Email Address" within the NTUSER.DAT registry hive:<br>
+A keyword search for "SMTP" reveals the "SMTP Email Address" within the NTUSER.DAT registry hive's extracted text:<br>
 <strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\NTUSER.DAT</strong>
 
 <img src="./pics/25_SMTP_NTUSER.DAT.png" alt="SMTP NTUSER.DAT">
 
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
+<strong>news.dallas.sbcglobal.net</strong>
+
+The Network News Transfer Protocol (NNTP) is an application protocol used for transporting Usenet news articles (netnews) between news servers, and for reading/posting articles by the end user client applications.
+
+Just like in the previous question, a keyword search for "NNTP" reveals the "NNTP Server" within the NTUSER.DAT registry hive's extracted text.
+
+<img src="./pics/26_NNTP_Server_NTUSER.DAT.png" alt="NNTP Server in NTUSER.DAT">
+
 ### 19. What two installed programs show this information?
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
