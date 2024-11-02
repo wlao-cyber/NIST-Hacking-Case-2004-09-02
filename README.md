@@ -22,7 +22,7 @@ I will be using the free open-source tool Autopsy 4.21.0 (latest version as of 2
 ## Initial Walkthrough and Case Setup
 Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>.
 
-<img src="./pics/1_Autopsy_Start.png" alt="Start Autopsy" target="_blank">
+<img src="./pics/1_Autopsy_Start.png" alt="Start Autopsy">
 
 Set a case name. The additional information like case number is optional. Click <strong>Next</strong> and then <strong>Finish</strong>.
 
