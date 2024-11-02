@@ -343,6 +343,10 @@ The Simple Mail Transfer Protocol (SMTP) is an Internet standard communication p
 A keyword search for "SMTP" reveals the "SMTP Email Address" within the NTUSER.DAT registry hive's extracted text:<br>
 <strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\NTUSER.DAT</strong>
 
+Unlike the other registry hives mentioned before that are located in <strong>C:\Windows\system32\config</strong>, <strong>NTUSER.DAT</strong> is located in the user's <strong>C:\Documents and Settings</strong> directory for Windows XP and older operating systems. 
+
+And for more recent operating systems, the <strong>NTUSER.DAT</strong> file is located in <strong>C:\Users</strong> directory.
+
 <img src="./pics/25_SMTP_NTUSER.DAT.png" alt="SMTP NTUSER.DAT">
 
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
