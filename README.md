@@ -359,7 +359,7 @@ Outlook Express <br>
 Forte Agent
 
 First, we can check to see what email clients are installed on the laptop by navigating to the registry key <strong>Mail</strong> in the SOFTWARE hive:
-software\clients\Mail
+<strong>software\clients\Mail</strong>
 
 <img src="./pics/27_SOFTWARE_Registry_Hive_Email_Clients.png" alt="Email Clients in SOFTWARE hive">
 
