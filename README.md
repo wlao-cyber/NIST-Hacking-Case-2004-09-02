@@ -355,6 +355,18 @@ Just like in the previous question, a keyword search for "NNTP" reveals the "NNT
 <img src="./pics/26_NNTP_Server_NTUSER.DAT.png" alt="NNTP Server in NTUSER.DAT">
 
 ### 19. What two installed programs show this information?
+Outlook Express <br>
+Forte Agent
+
+First, we can check to see what email clients are installed on the laptop by navigating to the registry key <strong>Mail</strong> in the SOFTWARE hive:
+software\clients\Mail
+
+<img src="./pics/27_SOFTWARE_Registry_Hive_Email_Clients.png" alt="Email Clients in SOFTWARE hive">
+
+A keyword search for <strong>whoknowsme@sbcglobal.net</strong> shows the program Agent.
+
+A keyword search for <strong>news.dallas.sbcglobal.net</strong> shows the program Outlook Express.
+
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
 ### 22. This IRC program has the capability to log chat sessions. List 3 IRC channels that the user of this computer accessed.
