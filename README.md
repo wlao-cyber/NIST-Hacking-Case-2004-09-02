@@ -387,32 +387,34 @@ A keyword search for <strong>news.dallas.sbcglobal.net</strong> shows the progra
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to.
 
 The following are the subscribed newsgroups in Outlook Express:<br>
-Alt.2600.phreakz<br>
-Alt.2600<br>
-Alt.2600.cardz<br>
-Alt.2600codez<br>
-Alt.2600.crackz<br>
-Alt.2600.moderated<br>
-Alt.binaries.hacking.utilities<br>
-Alt.stupidity.hackers.malicious<br>
-Free.binaries.hackers.malicious<br>
-Free.binaries.hacking.talentless.troll_haven<br>
-Free.binaries.hacking.talentless.troll-haven<br>
-alt.nl.binaries.hack<br>
-free.binaries.hacking.beginner<br>
-free.binaries.hacking.computers<br>
-free.binaries.hacking.utilities<br>
-free.binaries.hacking.websites<br>
-alt.binaries.hacking.computers<br>
-alt.binaries.hacking.websites<br>
-alt.dss.hack<br>
-alt.binaries.hacking.beginner<br>
-alt.hacking<br>
-alt.2600.programz<br>
-alt.2600.hackerz<br>
+<strong>alt.2600</strong><br>
+<strong>alt.2600.cardz</strong><br>
+<strong>alt.2600.codez</strong><br>
+<strong>alt.2600.crackz</strong><br>
+<strong>alt.2600.hackerz</strong><br>
+<strong>alt.2600.moderated</strong><br>
+<strong>alt.2600.phreakz</strong><br>
+<strong>alt.2600.programz</strong><br>
+<strong>alt.binaries.hacking.beginner</strong><br>
+<strong>alt.binaries.hacking.computers</strong><br>
+<strong>alt.binaries.hacking.utilities</strong><br>
+<strong>alt.binaries.hacking.websites</strong><br>
+<strong>alt.dss.hack</strong><br>
+<strong>alt.hacking</strong><br>
+<strong>alt.nl.binaries.hack</strong><br>
+<strong>alt.stupidity.hackers.malicious</strong><br>
+<strong>free.binaries.hackers.malicious</strong><br>
+<strong>free.binaries.hacking.beginner</strong><br>
+<strong>free.binaries.hacking.computers</strong><br>
+<strong>free.binaries.hacking.talentless.troll_haven</strong><br>
+<strong>free.binaries.hacking.talentless.troll-haven</strong><br>
+<strong>free.binaries.hacking.utilities</strong><br>
+<strong>free.binaries.hacking.websites</strong><br>
 
-A quick online search for newsgroup subscriptions on Windows XP shows that newsgroups can be subscriptions can be set up within Outlook Express.
+A quick online search for newsgroup subscriptions on Windows XP shows that newsgroups can be subscribed to in Outlook Express.
 <img src="./pics/28_Google_Search_Newsgroup_subscriptions_on_Windows_XP.png" alt="Search for newsgroup subscriptions on Windows XP">
+
+
 
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
 ### 22. This IRC program has the capability to log chat sessions. List 3 IRC channels that the user of this computer accessed.
