@@ -385,7 +385,6 @@ A keyword search for <strong>news.dallas.sbcglobal.net</strong> shows the progra
 <img src="./pics/27_NNTP_News_Server_Search_Agent.png" alt="NNTP News Server Search">
 
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to.
-
 The following are the subscribed newsgroups in Outlook Express:<br>
 <strong>alt.2600</strong><br>
 <strong>alt.2600.cardz</strong><br>
@@ -428,8 +427,16 @@ We can export select rows to export out from the Results Viewer to get a file/fo
 
 <img src="./pics/28_CSV_Highlighted_Selected_Rows_Outlook_Express.png" alt="Highlighted CSV of Exported Rows">
 
-
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
+<strong>user=Mini Me</strong><br>
+<strong>email=none@of.ya</strong><br>
+<strong>nick=Mr</strong><br>
+<strong>anick=mrevilrulez</strong><br>
+
+Performing a keyword search on "mirc" reveals <strong>mirc.ini</strong>. This INI file shows the "user", "email", "nick", and "anick."
+
+<img src="./pics/29_mirc_search_mirc.ini.png" alt="Keyword search for mirc showing mirc.ini">
+
 ### 22. This IRC program has the capability to log chat sessions. List 3 IRC channels that the user of this computer accessed.
 ### 23. Ethereal, a popular “sniffing” program that can be used to intercept wired and wireless internet packets was also found to be installed. When TCP packets are collected and re-assembled, the default save directory is that users \My Documents directory. What is the name of the file that contains the intercepted data?
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
