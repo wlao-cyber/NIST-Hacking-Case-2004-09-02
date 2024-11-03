@@ -414,6 +414,19 @@ The following are the subscribed newsgroups in Outlook Express:<br>
 A quick online search for newsgroup subscriptions on Windows XP shows that newsgroups can be subscribed to in Outlook Express.
 <img src="./pics/28_Google_Search_Newsgroup_subscriptions_on_Windows_XP.png" alt="Search for newsgroup subscriptions on Windows XP">
 
+We can navigate to the Outlook Express folder in the user's <strong>Application Data</strong> folder and look for DBX files:<br>
+<strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\Local Settings\Application Data\Identities\{EF086998-1115-4ECD-9B13-9ADC067B4929}\Microsoft\Outlook Express</strong>
+
+Before Outlook Express was discontinued in 2006, DBX files were database container files that stored emails and other information like newsgroup subscriptions.
+Most of the DBX files are newsgroups. The other DBX files, such as <strong>Inbox.dbx</strong> and <strong>DeletedItems.dbx</strong> are standard DBXs where emails are stored.
+
+We can export select rows to export out from the Results Viewer to get a file/folder listing in a CSV file output.
+
+<img src="./pics/28_Newsgroups_DBX_Outlook_Express.png" alt="Newsgroups in Outlook Express">
+
+<img src="./pics/28_Export_Selected_Rows_Outlook_Express.png" alt="Selected Outlook Express rows">
+
+<img src="./pics/28_CSV_Highlighted_Selected_Rows_Outlook_Express.png" alt="Highlighted CSV of Exported Rows">
 
 
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
