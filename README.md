@@ -438,6 +438,28 @@ Performing a keyword search on "mirc" reveals <strong>mirc.ini</strong>. This IN
 <img src="./pics/29_mirc_search_mirc.ini.png" alt="Keyword search for mirc showing mirc.ini">
 
 ### 22. This IRC program has the capability to log chat sessions. List 3 IRC channels that the user of this computer accessed.
+The IRC channels are the following:<br>
+<strong>#Chataholics.UnderNet</strong><br>
+<strong>#CyberCafe.UnderNet</strong><br>
+<strong>#Elite.Hackers.UnderNet</strong><br>
+<strong>#evilfork.EFnet</strong><br>
+<strong>#funny.UnderNet</strong><br>
+<strong>#houston.UnderNet</strong><br>
+<strong>#ISO-WAREZ.EFnet</strong><br>
+<strong>#LuxShell.UnderNet</strong><br>
+<strong>#mp3xserv.UnderNet</strong><br>
+<strong>#thedarktower.AfterNET</strong><br>
+<strong>#ushells.UnderNet</strong><br>
+<strong>m5tar.UnderNet</strong><br>
+
+From the keyword search view we can view the source directory.
+
+<img src="./pics/30_view_mirc_directory.png" alt="view mirc.ini directory">
+
+<img src="./pics/30_mirc_Program_Files_Directory.png" alt="mIRC Program Files">
+
+<img src="./pics/30_mirc_directory_logs_sessions.png" alt="mIRC Directory Logs">
+
 ### 23. Ethereal, a popular “sniffing” program that can be used to intercept wired and wireless internet packets was also found to be installed. When TCP packets are collected and re-assembled, the default save directory is that users \My Documents directory. What is the name of the file that contains the intercepted data?
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
 ### 25. What websites was the victim accessing?
