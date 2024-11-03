@@ -386,7 +386,7 @@ A keyword search for <strong>news.dallas.sbcglobal.net</strong> shows the progra
 
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to.
 
-The following are the subscribed newsgroups in Outlook Express:
+The following are the subscribed newsgroups in Outlook Express:<br>
 Alt.2600.phreakz<br>
 Alt.2600<br>
 Alt.2600.cardz<br>
