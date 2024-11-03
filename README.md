@@ -479,6 +479,10 @@ This <strong>recent</strong> file references a capture file named "interception"
 
 <img src="./pics/31_ethereal_search.png" alt="Keyword search for ethereal">
 
+Navigating to the <strong>interception</strong> file shows a packet capture.
+
+<img src="./pics/31_interception_file.png" alt="interception packet capture file">
+
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
 ### 25. What websites was the victim accessing?
 ### 26. Search for the main users web based email address. What is it?
