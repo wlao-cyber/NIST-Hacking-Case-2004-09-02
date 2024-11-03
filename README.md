@@ -486,7 +486,9 @@ Navigating to the <strong>interception</strong> file shows a packet capture.
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
 Windows CE (Pocket PC)
 
-The interception file can be viewed in plaintext. The following line details the operating system:<br>
+The interception file can be viewed in plaintext. To get a better view of the extracted text, we can choose to view the text in a new window.
+
+The following line details the operating system:<br>
 <strong>UA-OS: Windows CE (Pocket PC) - Version 4.20</strong>
 
 Windows CE (Pocket PC) is an operating system that is consistent with handheld PDA (personal digital assistant) devices. PDAs were somewhat common in the early to mid 2000s but were eventually phased out and replaced by smartphones. 
@@ -494,9 +496,6 @@ Windows CE (Pocket PC) is an operating system that is consistent with handheld P
 <img src="./pics/32_interception_file_view_in_new_window.png" alt="View interception file in new window">
 
 <img src="./pics/32_interception_file_new_window_text_editor_view.png" alt="new text editor view on interception file">
-
-
-
 
 ### 25. What websites was the victim accessing?
 ### 26. Search for the main users web based email address. What is it?
