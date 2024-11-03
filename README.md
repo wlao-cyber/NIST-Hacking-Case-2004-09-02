@@ -452,11 +452,13 @@ The IRC channels are the following:<br>
 <strong>#ushells.UnderNet</strong><br>
 <strong>m5tar.UnderNet</strong><br>
 
-From the keyword search view we can view the source directory.
+From the keyword search view, we can redirect to the source file's directory by right-clicking and selecting <strong>View Source File in Directory</strong>.
 
 <img src="./pics/30_view_mirc_directory.png" alt="view mirc.ini directory">
 
 <img src="./pics/30_mirc_Program_Files_Directory.png" alt="mIRC Program Files">
+
+If we navigate to the <strong>\Program Files\mIRC\logs</strong> directory, we can see a list of chat sessions and the name of the channels.
 
 <img src="./pics/30_mirc_directory_logs_sessions.png" alt="mIRC Directory Logs">
 
