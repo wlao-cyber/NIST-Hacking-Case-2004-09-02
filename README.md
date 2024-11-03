@@ -463,6 +463,19 @@ If we navigate to the <strong>\Program Files\mIRC\logs</strong> directory, we ca
 <img src="./pics/30_mirc_directory_logs_sessions.png" alt="mIRC Directory Logs">
 
 ### 23. Ethereal, a popular “sniffing” program that can be used to intercept wired and wireless internet packets was also found to be installed. When TCP packets are collected and re-assembled, the default save directory is that users \My Documents directory. What is the name of the file that contains the intercepted data?
+<strong>Interception</strong>
+
+Notes: Ethereal was rebranded as Wireshark in 2006.<br>
+Windows XP and prior had the User(s) directory in <strong>C:\Documents and Settings</strong>.
+In more recent Windows operating systems, this directory has been replaced with the <strong>C:\Users</strong>.
+
+Searching through the image’s <strong>\My Documents</strong> directory does not yield any relevant results.
+
+A keyword search for “ethereal” shows a <strong>recent</strong> file in the <strong>Documents and Settings</strong> directory:<br>
+<strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\Application Data\Ethereal</strong>
+
+<img src="./pics/31_ethereal_search.png" alt="Keyword search for ethereal">
+
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
 ### 25. What websites was the victim accessing?
 ### 26. Search for the main users web based email address. What is it?
