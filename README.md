@@ -536,7 +536,11 @@ This is where multimedia content and web pages are stored in a browser cache to 
 <img src="./pics/35_search_on_mrevilrulez@yahoo.com.png" alt="Email Address Search ShowLetter[1].htm">
 
 ### 28. How many executable files are in the recycle bin?
-Four executables.
+Four executables:<br>
+<strong>Dc1.exe</strong><br>
+<strong>Dc2.exe</strong><br>
+<strong>Dc3.exe</strong><br>
+<strong>Dc4.exe</strong><br>
 
 We can find four executable files after navigating to the recycle bin folder:<br>
 <strong>\img_SCHARDT.001\vol_vol2\RECYCLER\S-1-5-21-2000478354-688789844-1708537768-1003</strong>
