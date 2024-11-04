@@ -498,14 +498,14 @@ Windows CE (Pocket PC) is an operating system that is consistent with handheld P
 <img src="./pics/32_interception_file_new_window_text_editor_view.png" alt="new text editor view on interception file">
 
 ### 25. What websites was the victim accessing?
-Mobile.msn.com
+Mobile.msn.com <br>
 MSN (Hotmail) Email
 
 While searching through the plaintext of the <strong>interception</strong> file, we see multiple http links beginning with <strong>http://mobile.msn.com/hm</strong>.
 
 The <strong>hm</strong> page is indication of Hotmail, which was used back in the day.
 
-<img src="./pics/33_msn.com_in_interception_file" alt="msn.com in interception file">
+<img src="./pics/33_msn.com_in_interception_file.png" alt="msn.com in interception file">
 
 ### 26. Search for the main users web based email address. What is it?
 ### 27. Yahoo mail, a popular web based email service, saves copies of the email under what file name?
