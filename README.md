@@ -486,7 +486,7 @@ Navigating to the <strong>interception</strong> file shows a packet capture.
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
 Windows CE (Pocket PC)
 
-The interception file can be viewed in plaintext. To get a better view of the extracted text, we can choose to view the text in a new window.
+The <strong>interception</strong> file can be viewed in plaintext. To get a better view of the extracted text, we can choose to view the text in a new window.
 
 The following line details the operating system:<br>
 <strong>UA-OS: Windows CE (Pocket PC) - Version 4.20</strong>
@@ -498,6 +498,15 @@ Windows CE (Pocket PC) is an operating system that is consistent with handheld P
 <img src="./pics/32_interception_file_new_window_text_editor_view.png" alt="new text editor view on interception file">
 
 ### 25. What websites was the victim accessing?
+Mobile.msn.com
+MSN (Hotmail) Email
+
+While searching through the plaintext of the <strong>interception</strong> file, we see multiple http links beginning with <strong>http://mobile.msn.com/hm</strong>.
+
+The <strong>hm</strong> page is indication of Hotmail, which was used back in the day.
+
+<img src="./pics/33_msn.com_in_interception_file" alt="msn.com in interception file">
+
 ### 26. Search for the main users web based email address. What is it?
 ### 27. Yahoo mail, a popular web based email service, saves copies of the email under what file name?
 ### 28. How many executable files are in the recycle bin?
