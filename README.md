@@ -501,7 +501,7 @@ Windows CE (Pocket PC) is an operating system that is consistent with handheld P
 Mobile.msn.com <br>
 MSN (Hotmail) Email
 
-While searching through the plaintext of the <strong>interception</strong> file, we see multiple http links beginning with <strong>http://mobile.msn.com/hm</strong>.
+While searching through the plaintext of the <strong>interception</strong> file, we see multiple http links beginning with <strong>http://mobile.msn.com/hm</strong>
 
 The <strong>hm</strong> page is indication of Hotmail, which was used back in the day.
 
@@ -524,6 +524,17 @@ The file that shows this email address is:<br>
 <img src="./pics/34_index.dat_IE_History.png" alt="indext.dat in IE History">
 
 ### 27. Yahoo mail, a popular web based email service, saves copies of the email under what file name?
+<strong>Showletter[1].htm</strong>
+
+Now that we know the Yahoo! Mail email address, we can do a keyword search of the email address "mrevilrulez@yahoo.com".
+
+There are other <strong>Showletter[1].htm</strong> in the folder location:<br>
+<strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\Local Settings\Temporary Internet Files\Content.IE5</strong>
+
+This is where multimedia content and web pages are stored in a browser cache to enhance the loading speed of web pages when revisiting.
+
+<img src="./pics/35_search_on_mrevilrulez@yahoo.com.png" alt="Email Address Search ShowLetter[1].htm">
+
 ### 28. How many executable files are in the recycle bin?
 ### 29. Are these files really deleted?
 ### 30. How many files are actually reported to be deleted by the file system?
