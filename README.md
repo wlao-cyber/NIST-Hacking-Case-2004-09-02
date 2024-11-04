@@ -507,7 +507,22 @@ The <strong>hm</strong> page is indication of Hotmail, which was used back in th
 
 <img src="./pics/33_msn.com_in_interception_file.png" alt="msn.com in interception file">
 
-### 26. Search for the main users web based email address. What is it?
+### 26. Search for the main user's web based email address. What is it?
+<strong>mrevilrulez@yahoo.com</strong>
+
+Because we are looking for a web-based email address, we can browse through <strong>Web History</strong> under <strong>Data Artifacts</strong> in the Tree Viewer to determine what web-based email service was used.
+Scrolling down the <strong>Web History</strong>, we can see Yahoo! Mail used.
+
+<img src="./pics/34_Web_History_Lookup.png" alt="Web History Yahoo Mail">
+
+To determine the exact email address used, we can do a substring search of "@yahoo.com". This reveals the web-based email address used to log into Yahoo! Mail.
+The file that shows this email address is:<br>
+<strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\Local Settings\History\History.IE5\index.dat</strong>
+
+<img src="./pics/34_substring_search_@yahoo.com.png" alt="substring search of @yahoo.com">
+
+<img src="./pics/34_index.dat_IE_History.png" alt="indext.dat in IE History">
+
 ### 27. Yahoo mail, a popular web based email service, saves copies of the email under what file name?
 ### 28. How many executable files are in the recycle bin?
 ### 29. Are these files really deleted?
