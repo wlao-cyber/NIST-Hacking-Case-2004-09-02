@@ -528,7 +528,7 @@ The file that shows this email address is:<br>
 
 Now that we know the Yahoo! Mail email address, we can do a keyword search of the email address "mrevilrulez@yahoo.com".
 
-There are other <strong>Showletter[1].htm</strong> in the folder location:<br>
+There are two copies of <strong>Showletter[1].htm</strong> under different subfolders in the folder location:<br>
 <strong>\img_SCHARDT.001\vol_vol2\Documents and Settings\Mr. Evil\Local Settings\Temporary Internet Files\Content.IE5</strong>
 
 This is where multimedia content and web pages are stored in a browser cache to enhance the loading speed of web pages when revisiting.
