@@ -553,4 +553,23 @@ These files are not truly deleted and are still allocated according to the maste
 <img src="./pics/37_EXEs_in_Recycle_Bin_Still_Allocated.png" alt="Recycle Bin EXEs still allocated">
 
 ### 30. How many files are actually reported to be deleted by the file system?
+According to the file system, there are a 365 files deleted. 
+
+Note: There are 365 files detected as deleted by the file system, but there are <strong>All (1371)</strong> deleted files. The difference is because of the carved files taken into account by Autopsy.<br>
+Carved files are recovered from the actual raw data from the storage medium rather than relying on what the file system sees.
+
+<img src="./pics/38_Deleted_Files_Count_365_According_to_File_System.png" alt="Deleted Files According to File System">
+
 ### 31. Perform a Anti-Virus check. Are there any viruses on the computer?
+Yes.
+
+If we have the commercial license of the Cyber Triage Malware Scanner, we can run a scan on the image for malware without mounting the image.
+
+However, just a quick look on the <strong>Analysis Results'</strong> node <strong>Interesting Items</strong> shows a possible ZIP bomb. A zip bomb is a ZIP archive that keeps expanding in size or memory usage to overload and crash a program or system. ZIP bombs are often characterized by mulitple layers of compression.
+
+The exact file path is:<br>
+<strong>\img_SCHARDT.001\vol_vol2\My Documents\FOOTPRINTING\UNIX\unix_hack.tgz</strong>
+
+<img src="./pics/39_Cyber_Triage_Malware_Scanner.png" alt="Cyber Triage Malware Scanner Ingest Module">
+<img src="./pics/40_Possible_ZIP_Bomb.png" alt="Possible ZIP Bomb">
+
