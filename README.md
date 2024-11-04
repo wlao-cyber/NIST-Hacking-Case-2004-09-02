@@ -548,5 +548,9 @@ We can find four executable files after navigating to the recycle bin folder:<br
 <img src="./pics/36_Recycle_Bin.png" alt="Recycle Bin">
 
 ### 29. Are these files really deleted?
+These files are not truly deleted and are still allocated according to the master file table. These files can still be recovered from the recycle bin.
+
+<img src="./pics/37_EXEs_in_Recycle_Bin_Still_Allocated.png" alt="Recycle Bin EXEs still allocated">
+
 ### 30. How many files are actually reported to be deleted by the file system?
 ### 31. Perform a Anti-Virus check. Are there any viruses on the computer?
