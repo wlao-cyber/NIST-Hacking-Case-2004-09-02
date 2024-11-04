@@ -505,6 +505,10 @@ While searching through the plaintext of the <strong>interception</strong> file,
 
 The <strong>hm</strong> page is indication of Hotmail, which was used back in the day.
 
+Note:
+Internet traffic was easily intercepted back then because it was unencrypted, and a lot of websites were still using HTTP only. 
+Back in the day, it was not uncommon and quite easy to use Ethereal/Wireshark to view internet traffic (including login credentials) while in a public WiFi setting like a cafe.
+
 <img src="./pics/33_msn.com_in_interception_file.png" alt="msn.com in interception file">
 
 ### 26. Search for the main user's web based email address. What is it?
