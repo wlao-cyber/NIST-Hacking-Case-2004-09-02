@@ -536,6 +536,13 @@ This is where multimedia content and web pages are stored in a browser cache to 
 <img src="./pics/35_search_on_mrevilrulez@yahoo.com.png" alt="Email Address Search ShowLetter[1].htm">
 
 ### 28. How many executable files are in the recycle bin?
+Four executables.
+
+We can find four executable files after navigating to the recycle bin folder:<br>
+<strong>\img_SCHARDT.001\vol_vol2\RECYCLER\S-1-5-21-2000478354-688789844-1708537768-1003</strong>
+
+<img src="./pics/36_Recycle_Bin.png" alt="Recycle Bin">
+
 ### 29. Are these files really deleted?
 ### 30. How many files are actually reported to be deleted by the file system?
 ### 31. Perform a Anti-Virus check. Are there any viruses on the computer?
