@@ -95,7 +95,7 @@ If Autopsy didn't automatically provide this as an artifact, we can also look fo
 The operating system information should be under the <strong>CurrentVersion</strong> registry key within the SOFTWARE hive:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion</strong>
 
-We can navigate to the registry key by selecting the <strong>Application</strong> tab in the Results Viewer after selecting the SOFTWARE hive file.
+After selecting the SOFTWARE hive file, we can navigate to the registry key by selecting the <strong>Application</strong> tab in the Results Viewer and drilling down the folders.
 
 <img src="./pics/11_SOFTWARE_Registry_Hive_OS_Info.png" alt="OS Info in SOFTWARE Registry">
 
