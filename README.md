@@ -301,8 +301,6 @@ A <a href="https://maclookup.app/macaddress/0010a4" target="_blank">search</a></
 <img src="./pics/23_Mac_Address_OUI_Lookup.png" alt="Mac Address OUI Lookup">
 
 ### 16. Find 6 installed programs that may be used for hacking.
-Installed programs can be found in Program Files. More specific version numbers can be found within log files within the respective program folders.
-
 123 WASP (Write All Stored Passwords)
 <ul>
     <li>finds passwords in registry</li>
@@ -347,6 +345,13 @@ Network Stumbler
     <li>NetStumbler was a tool for Windows that facilitates detection of Wireless LANs using the 802.11b, 802.11a and 802.11g WLAN standards</li>
     <li>It ran on Microsoft Windows operating systems from Windows 2000 to Windows XP as well as Windows CE on handheld devices</li>
 </ul>
+
+Installed programs can be found in the <strong>Uninstall </strong> registry key under the SOFTWARE hive:
+<strong>software\Microsoft\Windows\CurrentVersion\Uninstall</strong>
+
+<img src="./pics/24_SOFTWARE_Registry_Hive_Installed_Programs.png" alt="Installed Programs in Uninstall key of SOFTWARE hive">
+
+Installed programs can also be found in Program Files. Additional details and more specific version numbers can be found in logs within each installed program's folder.
 
 <img src="./pics/24_Program_Files_Hacking_Tools.png" alt="Program Files Hacking Tools">
 
