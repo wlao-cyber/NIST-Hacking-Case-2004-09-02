@@ -183,6 +183,7 @@ Unfortunately, Autopsy's <strong>Application</strong> view does not provide much
 <img src="./pics/15_SAM_Registry_Users.png" alt="SAM Registry Users">
 
 If we wanted more detailed information from the SAM hive's <strong>Users</strong> key, we can use <a href="https://ericzimmerman.github.io/#!index.md">Registry Explorer</a>, an open-source tool for searching through and parsing Windows registry files.
+I extracted out the SAM registry hive and loaded onto Registry Explorer just to see the difference.
 
 <img src="./pics/15_Registry_Explorer_SAM_Registry_Users.png" alt="Registry Explorer SAM Registry Users">
 
