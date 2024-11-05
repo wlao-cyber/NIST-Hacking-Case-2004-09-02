@@ -349,7 +349,7 @@ Network Stumbler
 Installed programs can be found in the <strong>Uninstall </strong> registry key under the SOFTWARE hive:
 <strong>software\Microsoft\Windows\CurrentVersion\Uninstall</strong>
 
-The build/version number and install location can be found in subkeys like <strong>DisplayName</strong>, <strong>DisplayVersion</strong>, and <strong>UninstallString</strong>.
+The build/version number and install location can be found in values for <strong>DisplayName</strong>, <strong>DisplayVersion</strong>, and <strong>UninstallString</strong>.
 
 <img src="./pics/24_SOFTWARE_Registry_Hive_Installed_Programs.png" alt="Installed Programs in Uninstall key of SOFTWARE hive">
 
