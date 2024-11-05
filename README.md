@@ -301,7 +301,7 @@ A <a href="https://maclookup.app/macaddress/0010a4" target="_blank">search</a></
 <img src="./pics/23_Mac_Address_OUI_Lookup.png" alt="Mac Address OUI Lookup">
 
 ### 16. Find 6 installed programs that may be used for hacking.
-Installed programs can be found in Program Files.
+Installed programs can be found in Program Files. More specific version numbers can be found within log files within the respective program folders.
 
 123 WASP (Write All Stored Passwords)
 <ul>
@@ -314,7 +314,7 @@ Anonymizer
     <li>One of the first web privacy companies founded, Anonymizer creates a VPN link between its servers and its users computer, creating a random IP address, rather than the one actually being used</li>
 </ul>
 
-Cain & Abel v2.5 beta45 
+Cain & Abel
 <ul>
     <li>password sniffer & cracker</li>
     <li>Cain and Abel (often abbreviated to Cain) was a password recovery tool for Microsoft Windows. It could recover many kinds of passwords using methods such as network packet sniffing, cracking various password hashes by using methods such as dictionary attacks, brute force and cryptanalysis attacks</li>
@@ -327,21 +327,21 @@ Ethereal
     <li>Originally named Ethereal, the project was renamed Wireshark in May 2006 due to trademark issues</li>
 </ul>
 
-CuteFTP (FTP software)
+CuteFTP 
 <ul>
     <li>CuteFTP is a series of FTP (file transfer protocol) client applications distributed and supported since 1996 by GlobalSCAPE, who later bought the rights to the software</li>
     <li>Both a Windows-based or Mac-based interface were made for both home and professional use</li>
     <li>CuteFTP is used to transfer files between computers and File Transfer Protocol (FTP) servers to publish web pages, download digital images, music, multi-media files and software, and transfer files of any size or type between home and office</li>
 </ul>
 
-Look@LAN_1.0
+Look@LAN
 <ul>
     <li>network discovery tool</li>
     <li>would scan the network every few minutes and sound an alert when a device joined the network 
     <li>helped readily identify a user/device</li>
 </ul>
 
-NetStumbler 
+Network Stumbler 
 <ul>
     <li>wireless access point discovery tool</li>
     <li>NetStumbler was a tool for Windows that facilitates detection of Wireless LANs using the 802.11b, 802.11a and 802.11g WLAN standards</li>
