@@ -125,6 +125,11 @@ To convert to human-readable date, we need to convert epoch from seconds to huma
 <br>
 <img src="./pics/12_Epoch_Converter.png" alt="Epoch Conversion to Human Date">
 
+We have to consider time based on daylight savings.
+Central Daylight Time (CDT) is a North American time zone in use from the second Sunday in March to the first Sunday in November during Daylight Saving Time. 
+Central Standard Time (CST) is used during the remainder of the year.
+Because the install date was in August, the timezone setting would be CDT, which is five hours behind GMT.
+
 ### 4. What is the timezone settings?
 Central Daylight Time (-05hrs GMT)
 
