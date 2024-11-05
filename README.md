@@ -172,10 +172,10 @@ The computer account name can be found in the SAM registry hive as well as the S
 
 The SAM (Security Account Manager) registry hive contains user account, login, and group information.
 
-The SAM registry hive is in the following location:<br>
+The SAM registry hive is at the path:<br>
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\SAM</strong>
 
-We can navigate to the Users key:<br>
+Within the SAM hive, we can navigate to the <strong>Users</strong> key:<br>
 <strong>SAM\Domains\Account\Users</strong>
 
 Unfortunately, Autopsy's <strong>Application</strong> view does not provide much information on the SAM registry hive's <strong>Users</strong> key. However, all the essential information can be seen in the aforementioned <strong>OS Accounts</strong> node in the Tree Viewer.
