@@ -593,7 +593,7 @@ Yes.
 
 If we have the commercial license of the Cyber Triage Malware Scanner, we can run a scan on the image for malware without mounting the image.
 
-However, just a quick look on the <strong>Analysis Results'</strong> node's <strong>Interesting Items</strong> shows a possible ZIP bomb. A zip bomb is a ZIP archive that continues expanding in size or memory usage to overload and crash a program or system. ZIP bombs are often characterized by multiple layers of compression.
+However, just a quick look on the <strong>Analysis Results'</strong> node &rarr; <strong>Interesting Items</strong> shows a possible ZIP bomb. A zip bomb is a ZIP archive that continues expanding in size or memory usage to overload and crash a program or system. ZIP bombs are often characterized by multiple layers of compression.
 
 The exact file path is:<br>
 <strong>\img_SCHARDT.001\vol_vol2\My Documents\FOOTPRINTING\UNIX\unix_hack.tgz</strong>
