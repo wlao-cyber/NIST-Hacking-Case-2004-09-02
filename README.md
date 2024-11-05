@@ -317,7 +317,7 @@ Anonymizer
 Cain & Abel v2.5 beta45 
 <ul>
     <li>password sniffer & cracker</li>
-    <li>Cain and Abel (often abbreviated to Cain) was a password recovery tool for Microsoft Windows. It could recover many kinds of passwords using methods such as network packet sniffing, cracking various password hashes by using methods such as dictionary attacks, brute force and cryptanalysis attacks.</li>
+    <li>Cain and Abel (often abbreviated to Cain) was a password recovery tool for Microsoft Windows. It could recover many kinds of passwords using methods such as network packet sniffing, cracking various password hashes by using methods such as dictionary attacks, brute force and cryptanalysis attacks</li>
     <ul><li>Cryptanalysis attacks were done via rainbow tables which could be generated with the <strong>winrtgen.exe</strong> program provided with Cain and Abel</li></ul>
 </ul>
 
@@ -329,7 +329,7 @@ Ethereal
 
 CuteFTP (FTP software)
 <ul>
-    <li>CuteFTP is a series of FTP (file transfer protocol) client applications distributed and supported since 1996 by GlobalSCAPE, who later bought the rights to the software.</li>
+    <li>CuteFTP is a series of FTP (file transfer protocol) client applications distributed and supported since 1996 by GlobalSCAPE, who later bought the rights to the software</li>
     <li>Both a Windows-based or Mac-based interface were made for both home and professional use</li>
     <li>CuteFTP is used to transfer files between computers and File Transfer Protocol (FTP) servers to publish web pages, download digital images, music, multi-media files and software, and transfer files of any size or type between home and office</li>
 </ul>
@@ -337,7 +337,7 @@ CuteFTP (FTP software)
 Look@LAN_1.0
 <ul>
     <li>network discovery tool</li>
-    <li>would scan the network every few minutes and sound an alert when a device joined the network. 
+    <li>would scan the network every few minutes and sound an alert when a device joined the network 
     <li>helped readily identify a user/device</li>
 </ul>
 
