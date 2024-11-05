@@ -144,7 +144,7 @@ After selecting the SYSTEM hive file, we can navigate to the <strong>TimeZoneInf
 
 Note: It's common to see two Control Sets, <strong>ControlSet001</strong> and <strong>ControlSet002</strong>. In most cases (but not always), <strong>ControlSet001</strong> will point to the Control Set that the machine booted with, and <strong>ControlSet002</strong> will be the last known good configuration. 
 
-<img src="./pics/13_SYSTEM_Registry_Hive_TimeZone.png" alt="TimeZoneInformation in SYSTEM Registry">
+<img src="./pics/13_SYSTEM_Registry_Hive_TimeZoneCST_and_CDT.png" alt="TimeZoneInformation in SYSTEM Registry">
 
 ### 5. Who is the registered owner?
 Greg Schardt
