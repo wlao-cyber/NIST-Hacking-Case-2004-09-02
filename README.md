@@ -17,7 +17,7 @@ On 09/20/04 , a Dell CPi notebook computer, serial # VLQLW, was found abandoned 
 Find any hacking software, evidence of their use, and any data that might have been generated. Attempt to tie the computer to the suspect, G=r=e=g S=c=h=a=r=d=t.
 
 ## Tools
-I will be using the open-source tool Autopsy 4.21.0 (latest version as of 2024-11-03) to investigate this case. The latest Autopsy version can be downloaded <a href="https://www.autopsy.com/download/">here</a>.
+I will be using primarily the open-source tool Autopsy 4.21.0 (latest version as of 2024-11-03) to investigate this case. The latest Autopsy version can be downloaded <a href="https://www.autopsy.com/download/">here</a>.
 
 ## Initial Walkthrough and Case Setup
 Let's start up Autopsy 4.21.0 and set up a case. Click <strong>New Case</strong>.
@@ -181,6 +181,10 @@ Within the SAM hive, we can navigate to the <strong>Users</strong> key:<br>
 Unfortunately, Autopsy's <strong>Application</strong> view does not provide much information on the SAM registry hive's <strong>Users</strong> key. However, all the essential information can be seen in the aforementioned <strong>OS Accounts</strong> node in the Tree Viewer.
 
 <img src="./pics/15_SAM_Registry_Users.png" alt="SAM Registry Users">
+
+If we wanted more detailed information from the SAM hive's <strong>Users</strong> key, we can use <a href="https://ericzimmerman.github.io/#!index.md">Registry Explorer</a>, an open-source tool for searching through and parsing Windows registry files.
+
+<img src="./pics/15_Registry_Explorer_SAM_Registry_Users.png" alt="Registry Explorer SAM Registry Users">
 
 We can also look in the SOFTWARE hive's <strong>Winlogon</strong> key under the <strong>DefaultUserName</strong> value:<br>
 <strong>software\Microsoft\Windows NT\CurrentVersion\Winlogon</strong>
