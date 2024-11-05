@@ -389,7 +389,7 @@ First, we can check to see what email clients are installed on the laptop by nav
 
 <img src="./pics/27_SOFTWARE_Registry_Hive_Email_Clients.png" alt="Email Clients in SOFTWARE hive">
 
-A keyword search for <strong>whoknowsme@sbcglobal.net</strong> shows the program Agent as well as NTUSER.DAT.
+A keyword search for <strong>whoknowsme@sbcglobal.net</strong> shows results for the program Agent as well as NTUSER.DAT.
 
 <img src="./pics/27_Program_Files_Agent.png" alt="Program Files Agent">
 
