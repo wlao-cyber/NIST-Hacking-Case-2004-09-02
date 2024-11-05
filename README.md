@@ -115,7 +115,10 @@ The install date can be found in the <strong>InstallDate</strong> value, which i
 
 <img src="./pics/12_SOFTWARE_Registry_Hive_OS_Info_InstallDate.png" alt="InstallDate in SOFTWARE Registry">
 
-The install date is provided in both hexadecimal and decimal form. Note the 0x that precedes the numbers. This signifies hexadecimal form.<br>
+The install date is provided in both hexadecimal and decimal form:<br>
+<strong>0x41252e3b (1092955707)</strong>
+
+Note the 0x that precedes the numbers. This signifies hexadecimal form.<br>
 The number in parentheses represents the decimal number in UNIX time. UNIX time is a date and time representation widely used in computing that measures the time elapsed since 00:00:00 UTC on 1 January 1970, the Unix epoch.
 
 To convert to human-readable date, we need to convert epoch from seconds to human date. A website that can help with converting to human date is https://www.epochconverter.com/
