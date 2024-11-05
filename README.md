@@ -69,7 +69,7 @@ The acquisition log provided by NIST does not appear to have the image hash of t
 
 <img src="./pics/10_Acquisition_Log.png" alt="Acquisiton Log">
 
-There are different ways to find the image hash. One way is to simply click on the image in the Results Viewer and then checking the bottom pane under the <strong>File Metadata</strong> tab.
+There are different ways to find the image hash. One way is to simply click on the image in the Results Viewer and then check the bottom pane under the <strong>File Metadata</strong> tab.
 
 <img src="./pics/10_Image_Results_Viewer_Bottom.png" alt="Results Viewer File Metadata on Image">
 
