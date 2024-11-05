@@ -134,6 +134,7 @@ Because the install date was in August, the timezone setting would be CDT, which
 Central Daylight Time (-05hrs GMT)
 
 To find the Time Zone Information, we can look at the <strong>TimeZoneInformation</strong> registry value within the SYSTEM registry hive.
+As noted earlier in the previous question, there is a CDT and CST timezone dependent on the time of the year. The latest modification time being in August would mean that CDT would be in effect instead of CST.
 
 The SYSTEM hive is in the following location:<br>
 <strong>\img_SCHARDT.001\vol_vol2\WINDOWS\system32\config\system</strong>
