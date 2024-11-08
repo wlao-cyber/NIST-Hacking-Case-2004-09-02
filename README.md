@@ -2,6 +2,9 @@
 
 This is the original link to the hacking case: https://cfreds-archive.nist.gov/Hacking_Case.html
 
+## Author
+[@wlao-cyber](https://github.com/wlao-cyber)
+
 ## Background Information
 This hacking case is one of several Computer Forensic Reference Data Sets (CFReDS) provided by the US government's NIST (National Institute of Standards and Technology) to aid investigators in:
 <ul>
