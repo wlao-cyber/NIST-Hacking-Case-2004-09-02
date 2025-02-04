@@ -214,7 +214,7 @@ The same domain name can be found under the SOFTWARE hive's <strong>Winlogon</st
 2004-08-27 10:46:33 AM Central Daylight Time.
 
 The last recorded shutdown time can be found in the SYSTEM registry hive's <strong>Windows</strong> key:<br>
-<strong>system\CurrentControlSet\Control\Windows</strong>
+<strong>system\CurrentControlSet</strong>[00X]\Control\Windows</strong>
 
 The <strong>ShutdownTime</strong> value is in little endian hexadecimal form, which will need to be converted to human-readable form.
 
