@@ -221,7 +221,7 @@ The <strong>ShutdownTime</strong> value is in little endian hexadecimal form, wh
 <img src="./pics/16_SYSTEM_Registry_Hive_ShutdownTime.png" alt="ShutdownTime in SYSTEM Registry">
 
 I used 
-<a href="https://icyberchef.com" target="_blank">https://icyberchef.com</a></span>
+<a href="https://gchq.github.io/CyberChef/" target="_blank">https://gchq.github.io/CyberChef/</a></span>
 to convert from hexadecimal (little Endian) time to human readable date. The spaces between the hexadecimals need to be removed prior to conversion. 
 The first conversion is from the little endian (without spaces) hexadecimal number to the epoch time in seconds. 
 The seconds represents the time elapsed since 00:00:00 UTC on 1 January 1970, the Unix epoch. And from the seconds, we can determine the exact date/time.
@@ -229,7 +229,7 @@ The seconds represents the time elapsed since 00:00:00 UTC on 1 January 1970, th
 The human readable date in UTC time is "Fri 27 August 2004 15:46:33 UTC."
 
 The link to the conversion recipe I used is 
-<a href="https://icyberchef.com/#recipe=Remove_whitespace(true,false,false,false,false,false)Windows_Filetime_to_UNIX_Timestamp('Seconds%20(s)','Hex%20(little%20endian)')From_UNIX_Timestamp('Seconds%20(s)')&input=QzQgRkMgMDAgMDcgNEQgOEMgQzQgMDEg" target="_blank">here</a></span>.
+<a href="https://gchq.github.io/CyberChef/#recipe=Remove_whitespace(true,false,false,false,false,false)Windows_Filetime_to_UNIX_Timestamp('Seconds%20(s)','Hex%20(little%20endian)')From_UNIX_Timestamp('Seconds%20(s)')&input=QzQgRkMgMDAgMDcgNEQgOEMgQzQgMDE" target="_blank">here</a></span>.
 
 The outputted date is in UTC, so we need to subtract by 5 hours to get 2004-08-27 10:46:33 AM Central Daylight Time.
 
