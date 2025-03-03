@@ -487,7 +487,7 @@ If we navigate to the <strong>\Program Files\mIRC\logs</strong> directory, we ca
 
 <img src="./pics/30_mirc_directory_logs_sessions.png" alt="mIRC Directory Logs">
 
-### 23. Ethereal, a popular “sniffing” program that can be used to intercept wired and wireless internet packets was also found to be installed. When TCP packets are collected and re-assembled, the default save directory is that users \My Documents directory. What is the name of the file that contains the intercepted data?
+### 23. Ethereal, a popular “sniffing” program that can be used to intercept wired and wireless internet packets was also found to be installed. When TCP packets are collected and re-assembled, the default save directory is that user's \My Documents directory. What is the name of the file that contains the intercepted data?
 <strong>interception</strong>
 
 Notes: Ethereal was rebranded as Wireshark in 2006.<br>
